@@ -62,8 +62,8 @@
 
             .smallcards__elem__text__headline {
                 font-weight: bold;
-                font-size: 24px;
-                line-height: 28px;
+                font-size: 1.5rem;
+                line-height: 1.75rem;
             }
 
 @media screen and (max-width: 1100px) {

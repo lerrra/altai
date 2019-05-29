@@ -57,6 +57,12 @@
         cursor: pointer;
     }
 
+@media screen and (max-width: 1210px) {
+    .header {
+        padding: 0 1rem;
+    }
+}
+
 @media screen and (max-width: 1100px){
     .header {
         margin: 1rem 0;
