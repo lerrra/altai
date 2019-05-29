@@ -1,0 +1,104 @@
+
+
+.side-subscribe {
+    background-color: #333333;
+    padding: 2rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+    .side-subscribe__headline {
+        font-size: 1.375rem;
+        font-weight: 500;
+        line-height: 1.625rem;
+        text-align: center;
+
+        margin-bottom: 1rem;
+    }
+
+    .side-subscribe__button {
+        background-color: #9B51E0;
+        border: none;
+        cursor: pointer;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+
+        font-size: 1.125rem;
+        font-weight: bold;
+        line-height: 1rem;
+        letter-spacing: 0.1em;
+
+        text-transform: uppercase;
+
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+
+.smallcards {
+    max-width: 54.9375rem;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.smallcards__elem-card1 {
+    width: 26.5625rem;
+    height: 35vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_5_cat.jpg) center center no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 2rem;
+}
+
+.smallcards__elem-card2 {
+    width: 26.5625rem;
+    height: 35vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_2_books.jpg) center center no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 2rem;
+}
+
+.smallcards__elem-card3 {
+    width: 26.5625rem;
+    height: 35vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_3_hand.jpg) center bottom no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.smallcards__elem-card4 {
+    width: 26.5625rem;
+    height: 35vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_4_plane.jpg) center center no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.smallcards__elem__text {
+    padding: 8rem 0 2rem 1.25rem;
+}
+
+.smallcards__elem__text__topic {
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    margin-bottom: 0.5rem;
+}
+
+.smallcards__elem__text__headline {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+
