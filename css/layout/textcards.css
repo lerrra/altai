@@ -93,17 +93,19 @@
 
 
 .fullpost {
-    height: 80vh;
+    height: 34rem;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_6_beach.jpg) center center no-repeat;
     background-size: cover;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
-    margin-bottom: 3rem;
+    display: flex;
 }
 
     .fullpost__text {
-        max-width: 34.685rem;
-        padding: 10rem 0 0 4.1875rem;
+        max-width: 50%;
+        padding: 0 4.1875rem 4rem;
+
+        align-self: center;
     }
 
         .fullpost__text__topic {
@@ -128,7 +130,36 @@
         }
 
         .fullpost__text__lead {
-            max-width: 18.1875rem;
+            max-width: 60%;
             font-size: 1.125rem;
             font-weight: normal;
         }
+
+@media screen and (max-width: 1100px) {
+    .fullpost {
+     height: 32rem;
+    }
+    .fullpost__text {
+        max-width: 60%;
+    }
+}
+@media screen and (max-width: 944px) {
+    .fullpost__text {
+        max-width: 80%;
+        margin-top: 5rem;
+    }
+    .fullpost__text__lead {
+    max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .fullpost {
+        height: 37rem;
+    }
+
+    .fullpost__text {
+        max-width: 100%;
+        padding-left: 1rem;
+    }
+}
