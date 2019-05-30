@@ -13,7 +13,7 @@
         background-image: url("../../images/icons/hrr.svg");
         background-size: auto 3px;
         background-repeat: repeat-x;
-        background-position: 100% 100%;
+        background-position: 100% 95%;
 
         display: flex;
         flex-flow: column;
@@ -46,6 +46,7 @@
 
         .textcards__card__img {
             display: flex;
+            margin-top: 1rem;
         }
 
             .textcards__card__img__icon {
@@ -53,6 +54,7 @@
                 width: 4rem;
                 height: 4rem;
                 border-radius: 360rem;
+
             }
 
 @media screen and (max-width: 1210px){

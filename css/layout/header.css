@@ -35,11 +35,18 @@
         border-radius: 0.3125rem;
     }
 
+    .menu__items__item.emph {
+        background-color: #1f1f1f;
+        border: 1px solid #f50057;
+    }
+
         .menu__items__item:hover {
-            background-color: #9B51E0;
+            background-image: linear-gradient(to top left,#f50057,#9B51E0);
         }
         .menu__items__item.emph:hover {
-            background-color: #f50057;
+            background-image: linear-gradient(to top left,#f50057,#9B51E0);
+            -webkit-background-clip: text;
+            color: transparent;
         }
 
         .menu__items__item__img {
