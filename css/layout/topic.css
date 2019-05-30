@@ -15,8 +15,10 @@
 
     cursor: pointer;
 
+    background-image: url("../../images/icons/hrr.svg");
     background-size: auto 3px;
-    background: url("../../images/icons/hrr.svg") repeat-x 100% 100%;
+    background-repeat: repeat-x;
+    background-position: 100% 100%;
 }
 
 .divider__head__headline:hover {
@@ -234,8 +236,10 @@
         width: 16.5rem;
         margin-bottom: 5rem;
 
+        background-image: url("../../images/icons/hrr.svg");
         background-size: auto 3px;
-        background: url("../../images/icons/hrr.svg") repeat-x 100% 95%;
+        background-repeat: repeat-x;
+        background-position: 100% 95%;
 
         display: flex;
         flex-flow: column;
