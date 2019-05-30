@@ -54,12 +54,20 @@
     .topic-firstline__bigcard {
         width: 66%;
         height: 25rem;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_7_bear.jpg) center center no-repeat;
-        background-size: cover;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
         display: flex;
     }
+
+    .topic-firstline__bigcard.topic__one {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_7_bear.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .topic-firstline__bigcard.topic__two {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_13_nature.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
         .topic-firstline__bigcard__text {
             padding: 0 4.1875rem 4rem;
             align-self: center;
@@ -80,12 +88,20 @@
 
     .topic-firstline__smallcard {
         width: 32%;
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_8_notebook.jpg) center center no-repeat;
-        background-size: cover;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
         display: flex;
     }
+
+        .topic-firstline__smallcard.topic__one {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_8_notebook.jpg) center center no-repeat;
+            background-size: cover;
+        }
+        .topic-firstline__smallcard.topic__two {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_14_pattern.jpg) center center no-repeat;
+            background-size: cover;
+        }
+
         .topic-firstline__smallcard__text {
             padding: 0 2rem 2rem;
             align-self: flex-end;
@@ -165,18 +181,33 @@
         align-content: flex-end;
     }
 
-    .topic-secondline__card1 {
+    .topic-secondline__card1.topic__one {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_9_green.jpg) center center no-repeat;
         background-size: cover;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     }
-    .topic-secondline__card2 {
+    .topic-secondline__card2.topic__one {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_10_conversation.jpg) center center no-repeat;
         background-size: cover;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     }
-    .topic-secondline__card3 {
+    .topic-secondline__card3.topic__one {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_11_building.jpg) center center no-repeat;
+        background-size: cover;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .topic-secondline__card1.topic__two {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_15_square.jpg) center center no-repeat;
+        background-size: cover;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .topic-secondline__card2.topic__two {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_16_car.jpg) center center no-repeat;
+        background-size: cover;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .topic-secondline__card3.topic__two {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_17_flowers.jpg) center center no-repeat;
         background-size: cover;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     }
@@ -312,12 +343,19 @@
 
 .topic-fourthline__fullpost {
     height: 34rem;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_12_city.jpg) center center no-repeat;
-    background-size: cover;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
     display: flex;
 }
+
+    .topic-fourthline__fullpost.topic__one {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_12_city.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .topic-fourthline__fullpost.topic__two {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../images/covers/_18_boats.jpg) center center no-repeat;
+        background-size: cover;
+    }
     .topic-fourthline__fullpost__text {
         max-width: 50%;
         padding: 0 4.1875rem 4rem;
