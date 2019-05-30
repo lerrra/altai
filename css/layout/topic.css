@@ -1,6 +1,6 @@
 /*Divider*/
 .divider {
-    margin: 6rem 0 2rem;
+    margin: 8rem 0 2rem;
 }
 .divider__head {
     display: flex;
@@ -15,17 +15,28 @@
 
     cursor: pointer;
 
-    background-image: url("../../images/icons/hrr.svg");
     background-size: auto 3px;
-    background-repeat: repeat-x;
-    background-position: 100% 100%;
+    background: url("../../images/icons/hrr.svg") repeat-x 100% 100%;
 }
 
 .divider__head__headline:hover {
     background: linear-gradient(to top left,#f50057,#9B51E0);
     -webkit-background-clip: text;
     color: transparent;
+}
 
+@media screen and (max-width: 1100px) {
+    .divider {
+        margin: 6rem 0 2rem;
+    }
+    .divider__head__headline {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .divider__head__headline {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -84,6 +95,54 @@
                 margin-bottom: 1rem;
             }
 
+@media screen and (max-width: 944px){
+    .topic-firstline__bigcard,
+    .topic-firstline__smallcard {
+        height: 20rem;
+    }
+    .topic-firstline__bigcard__text__headline {
+        max-width: 80%;
+        font-size: 1.75rem;
+    }
+    .topic-firstline__bigcard__text__lead {
+        max-width: 70%;
+        font-size: 1rem;
+    }
+    .topic-firstline__smallcard__text__headline {
+        font-size: 1.75rem;
+    }
+
+}
+
+@media screen and (max-width: 767px){
+    .topic-firstline {
+        flex-flow: column;
+        margin-bottom: 0;
+    }
+    .topic-firstline__bigcard {
+        width: 100%;
+        height: 30rem;
+    }
+    .topic-firstline__smallcard {
+        width: 100%;
+        height: 18rem;
+    }
+    .topic-firstline__bigcard__text {
+        padding-left: 1rem;
+    }
+    .topic-firstline__bigcard__text__headline {
+        max-width: 90%;
+    }
+    .topic-firstline__bigcard__text__lead {
+        max-width: 80%;
+    }
+    .topic-firstline__smallcard__text__headline {
+        font-size: 1.5rem;
+    }
+
+
+}
+
 /*Second part of the Topic's Block*/
 
 .topic-secondline {
@@ -130,6 +189,40 @@
                 line-height: 1.75rem;
             }
 
+@media screen and (max-width: 1100px) {
+    .topic-secondline__card1,
+    .topic-secondline__card2,
+    .topic-secondline__card3 {
+        height: 13rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .topic-secondline {
+        flex-flow: row wrap;
+    }
+    .topic-secondline__card1,
+    .topic-secondline__card2 {
+        height: 18rem;
+        width: 50%;
+    }
+    .topic-secondline__card3 {
+        height: 18rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .topic-secondline {
+        flex-flow: column;
+    }
+    .topic-secondline__card1,
+    .topic-secondline__card2 {
+        width: 100%;
+    }
+
+}
+
 /*Third part of the Topic's Block*/
 
 .topic-thirdline__textcards {
@@ -141,10 +234,8 @@
         width: 16.5rem;
         margin-bottom: 5rem;
 
-        background-image: url("../../images/icons/hrr.svg");
         background-size: auto 3px;
-        background-repeat: repeat-x;
-        background-position: 100% 95%;
+        background: url("../../images/icons/hrr.svg") repeat-x 100% 95%;
 
         display: flex;
         flex-flow: column;
@@ -174,6 +265,44 @@
             height: 4rem;
             border-radius: 360rem;
         }
+
+@media screen and (max-width: 1210px) {
+    .topic-thirdline__textcards {
+        padding: 0 0.5rem;
+    }
+
+    .topic-thirdline__textcards__card {
+        margin: 0 0.5rem 5rem;
+    }
+}
+@media screen and (max-width: 858px) {
+    .topic-thirdline__textcards {
+        justify-content: flex-start;
+    }
+
+    .topic-thirdline__textcards__card {
+        margin-right: 1rem;
+        width: 29%;
+    }
+}
+@media screen and (max-width: 640px){
+    .topic-thirdline__textcards__card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .topic-thirdline__textcards {
+        padding: 0 1.5rem;
+    }
+    .topic-thirdline__textcards__card {
+        width: 100%;
+    }
+    .topic-thirdline__textcards__card__text {
+        align-self: flex-start;
+    }
+}
+
 
 /*Fourth part of the Topic's Block*/
 
@@ -218,3 +347,32 @@
             font-size: 1.125rem;
             font-weight: normal;
         }
+
+@media screen and (max-width: 1100px) {
+    .topic-fourthline__fullpost {
+        height: 32rem;
+    }
+    .topic-fourthline__fullpost__text {
+        max-width: 60%;
+    }
+}
+@media screen and (max-width: 944px) {
+    .topic-fourthline__fullpost__text {
+        max-width: 80%;
+        margin-top: 5rem;
+    }
+    .topic-fourthline__fullpost__text__lead {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .topic-fourthline__fullpost {
+        height: 37rem;
+    }
+
+    .topic-fourthline__fullpost__text {
+        max-width: 100%;
+        padding-left: 1rem;
+    }
+}

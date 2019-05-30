@@ -10,10 +10,8 @@
         width: 16.5rem;
         margin-bottom: 5rem;
 
-        background-image: url("../../images/icons/hrr.svg");
         background-size: auto 3px;
-        background-repeat: repeat-x;
-        background-position: 100% 95%;
+        background: url("../../images/icons/hrr.svg") repeat-x 100% 95%;
 
         display: flex;
         flex-flow: column;

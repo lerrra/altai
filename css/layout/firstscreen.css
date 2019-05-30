@@ -60,10 +60,8 @@
         flex-flow: row nowrap;
         justify-content: space-between;
 
-        background-image: url("../../images/icons/hrr.svg");
         background-size: auto 3px;
-        background-repeat: repeat-x;
-        background-position: 100% 100%;
+        background: url("../../images/icons/hrr.svg") repeat-x 100% 100%;
 
         margin-bottom: 2rem;
     }
