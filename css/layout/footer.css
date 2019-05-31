@@ -1,0 +1,43 @@
+.divider.read-more {
+    margin: 6rem 0 5rem;
+}
+
+.footer {
+    display: flex;
+    flex-flow: column;
+}
+
+.footer__row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.footer__info,
+.footer__category,
+.footer__blog {
+    display: flex;
+    flex-flow: column;
+}
+
+    .footer__logo__lg {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.25rem;
+        line-height: 2.625rem;
+
+        margin-bottom: 1.5rem;
+    }
+
+    .footer__info__text {
+        font-size: 1.125rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+        color: rgba(242, 242, 242, 0.7);
+
+        margin-bottom: 1.5rem;
+    }
+
+    .footer__info__copyright__copy {
+        color: rgba(242, 242, 242, 0.7);
+    }

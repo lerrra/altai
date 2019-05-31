@@ -32,6 +32,7 @@
         flex-flow: row nowrap;
     }
         .subscribe__input__button {
+            outline: none;
             background-image: linear-gradient(to top left,#f50057,#9B51E0);
             color: #ffffff;
             padding: 0.5rem 1.125rem;
