@@ -20,6 +20,21 @@
     flex-flow: column;
 }
 
+    .footer__category__headline,
+    .footer__blog__headline,
+    .footer__social__headline {
+        font-size: 1.125rem;
+        font-weight: bold;
+
+        margin-bottom: 0.5rem;
+    }
+
+
+.footer__info,
+.footer__social {
+    width: 30%;
+}
+
     .footer__logo__lg {
         font-style: normal;
         font-weight: bold;
@@ -41,3 +56,28 @@
     .footer__info__copyright__copy {
         color: rgba(242, 242, 242, 0.7);
     }
+
+.footer__social {
+    display: flex;
+    flex-flow: column;
+}
+    .footer__social__button {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .footer__social__headline {
+        margin-left: 0.5rem;
+    }
+        .footer__social__button__btn {
+            width: 3rem;
+            height: 3rem;
+
+            margin: 0.125rem;
+            cursor: pointer;
+        }
+
+        .footer__category__link,
+        .footer__blog__link {
+            text-decoration: none;
+            color: rgba(242, 242, 242, 0.7);
+        }
