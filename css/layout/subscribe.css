@@ -1,0 +1,58 @@
+.subscribe-form {
+    background-image: url("../../images/icons/social/pattern.png");
+    background-size: auto 8rem;
+    background-repeat: repeat;
+    background-position: 95% 100%;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 3rem 0;
+}
+
+.subscribe {
+    width: 60%;
+    background-color: #333333;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 2rem 4rem 3rem;
+}
+    .subscribe__text {
+        margin-bottom: 2rem;
+    }
+
+        .subscribe__text__headline {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .subscribe__text__lead {
+            font-size: 1.125rem;
+        }
+
+    .subscribe__input {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        .subscribe__input__button {
+            background-image: linear-gradient(to top left,#f50057,#9B51E0);
+            color: #ffffff;
+            padding: 0.5rem 1.125rem;
+            border-radius: 0.3125rem;
+        }
+        .subscribe__input__email {
+            background: none;
+            border: 0;
+            border-bottom: 1px solid #f50057;
+            padding: 0.5rem 0;
+
+            margin-right: 1rem;
+            width: 70%;
+        }
+
+            ::-webkit-input-placeholder {
+                color: rgba(242, 242, 242, 0.8);
+            }
+
+            input {
+                outline: none;
+                color: #ffffff;
+            }
