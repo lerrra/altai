@@ -36,6 +36,11 @@
 
         width: 30%;
     }
+    .footer__category,
+    .footer__blog {
+        display: flex;
+        flex-flow: column;
+    }
         .footer__category__link__group,
         .footer__blog__link__group {
             display: flex;
@@ -57,6 +62,8 @@
             .footer__blog__link {
                 text-decoration: none;
                 color: #ffffff;
+
+                padding-right: 1rem;
                 margin-bottom: 0.5rem;
             }
                 .footer__category__link:hover,
@@ -97,4 +104,103 @@
                 margin-right: 1rem;
             }
 
+@media screen and (max-width: 1210px) {
+    .footer {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .footer__logo__lg {
+        font-size: 1.75rem;
+    }
+    .footer__social__button__btn {
+        width: 2rem;
+        height: 2rem;
+
+        margin-right: 0.5rem;
+    }
+}
+@media screen and (max-width: 944px) {
+    .footer {
+        flex-flow: row wrap;
+    }
+
+    .footer__info {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+    .footer__logo {
+        padding: 0;
+    }
+
+    .footer__links {
+        width: 100%;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        margin-bottom: 0.5rem;
+    }
+
+    .footer__category,
+    .footer__blog {
+        flex-flow: row nowrap;
+        align-items: baseline;
+    }
+    .footer__category__link__group,
+    .footer__blog__link__group {
+        flex-flow: row nowrap;
+    }
+    .footer__category__headline,
+    .footer__blog__headline {
+        margin-right: 1rem;
+        padding: 0;
+    }
+
+
+    .footer__social {
+        width: 100%;
+        flex-flow: row nowrap;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .footer__social__headline {
+        display: none;
+    }
+    .footer__social__button {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .footer {
+        padding: 1rem 0;
+    }
+    .section.final {
+        margin-bottom: 1rem;
+    }
+
+    .footer__category__headline,
+    .footer__blog__headline,
+    .footer__category__link,
+    .footer__blog__link,
+    .footer__info__copyright__copy {
+        font-size: 0.875rem;
+    }
+
+    .footer__logo__lg {
+        font-size: 1.5rem;
+    }
+
+    .footer__social__button__btn {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+
+
+
+}
 
