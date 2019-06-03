@@ -11,12 +11,18 @@
         color: transparent;
     }
 
+.allposts {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
 .posts {
     display: flex;
     flex-flow: column;
+    width: 66%;
 }
     .posts__card {
-        width: 66%;
         height: 25rem;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
@@ -103,4 +109,65 @@
 .posts__card.ten {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_13_nature.jpg) center center no-repeat;
     background-size: cover;
+}
+
+.sidebar {
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+}
+
+.popular {
+    background-color: rgba(51, 51, 51, 0.5);
+
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+
+    padding: 3rem 2rem 2rem;
+}
+
+
+.popular__elem {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    background-image: url("../../../images/icons/hrr.svg");
+    background-size: auto 3px;
+    background-repeat: repeat-x;
+    background-position: 100% 100%;
+
+    margin-bottom: 2rem;
+}
+
+.popular__elem__cover {
+    align-self: center;
+}
+
+.popular__elem__cover__img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+
+    border-radius: 360rem;
+}
+
+.popular__elem__text__topic {
+    font-size: 0.75rem;
+    font-weight: bold;
+    line-height: 1rem;
+    letter-spacing: 0.1em;
+
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.popular__elem__text__headline {
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+
+    padding: 0.5rem 0 1rem;
 }
