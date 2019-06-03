@@ -17,10 +17,15 @@
     justify-content: space-between;
 }
 
+.widecolumn {
+    width: 66%;
+    display: flex;
+    flex-flow: column;
+}
+
 .posts {
     display: flex;
     flex-flow: column;
-    width: 66%;
 }
     .posts__card {
         height: 25rem;
@@ -110,6 +115,35 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_13_nature.jpg) center center no-repeat;
     background-size: cover;
 }
+
+.pagination {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 1rem 0 2rem;
+}
+   .pagination__item {
+       text-decoration: none;
+       cursor: pointer;
+       color: #ffffff;
+
+       font-size: 1.125rem;
+       padding: 0.5rem 1.125rem;
+       margin-right: 0.5rem;
+   }
+   .pagination__item.no-active:hover {
+       background-image: linear-gradient(to top left,#f50057,#9B51E0);
+       -webkit-background-clip: text;
+       color: transparent;
+   }
+
+   .pagination__item.active {
+       color: rgba(242, 242, 242, 0.5);
+       border: 1px solid #333333;
+   }
+
+
+
 
 .sidebar {
     display: flex;
