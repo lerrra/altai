@@ -1,0 +1,106 @@
+.headline {
+    padding: 0 0 2rem;
+}
+    .headline__head {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+
+        background: linear-gradient(to top left,#f50057,#9B51E0);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+.posts {
+    display: flex;
+    flex-flow: column;
+}
+    .posts__card {
+        width: 66%;
+        height: 25rem;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+        display: flex;
+        margin-bottom: 2rem;
+    }
+        .posts__card__text {
+            padding: 0 4.1875rem 4rem;
+            align-self: center;
+        }
+
+            .posts__card__text__topic {
+                font-size: 0.875rem;
+                font-weight: bold;
+                line-height: 1rem;
+                letter-spacing: 0.1em;
+
+                text-transform: uppercase;
+
+                color: rgba(255, 255, 255, 0.8);
+
+                margin-bottom: 1rem;
+            }
+            .posts__card__text__headline {
+                max-width: 80%;
+                font-weight: bold;
+                font-size: 2rem;
+                line-height: 2.2rem;
+                margin-bottom: 1rem;
+            }
+            .posts__card__text__lead {
+                max-width: 60%;
+                font-size: 1.125rem;
+                font-weight: normal;
+            }
+
+/*Background-images*/
+
+.posts__card.one {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_7_bear.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.posts__card.two {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_1_journey.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.posts__card.three {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_2_books.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.posts__card.four {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_4_plane.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.posts__card.five {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_5_cat.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.posts__card.six {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_6_beach.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.posts__card.seven {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_18_boats.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.posts__card.eight {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_9_green.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.posts__card.nine {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_11_building.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.posts__card.ten {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_13_nature.jpg) center center no-repeat;
+    background-size: cover;
+}
