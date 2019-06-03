@@ -1,6 +1,11 @@
 .divider.read-more {
     margin: 6rem 0 5rem;
 }
+.divider__head__headline__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 
 .footer {
     display: flex;
