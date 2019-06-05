@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/layout/basic.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/layout/header.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/layout/inner-pages/standart-post/post-cover.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../css/layout/inner-pages/standart-post/post-sidebar.css" type="text/css" media="all">
 
     <link rel="stylesheet" href="../../css/config/hamburgers.css" type="text/css" media="all">
 
@@ -72,10 +73,107 @@
 <section class="section">
     <div class="post">
         <div class="widecolumn"></div>
-        <div class="sidebar"></div>
+
+
+        <div class="sidebar">
+                <div class="popular">
+                    <div class="popular__elem">
+                        <div class="popular__elem__text">
+                            <p class="popular__elem__text__topic">Art</p>
+                            <p class="popular__elem__text__headline">Reservoir Dogs <br>Crime, Drama</p>
+                        </div>
+                        <div class="popular__elem__cover">
+                            <img class="popular__elem__cover__img" src="../../images/covers/side/1.jpg" alt="cover"/>
+                        </div>
+                    </div>
+
+                    <div class="popular__elem">
+                        <div class="popular__elem__text">
+                            <p class="popular__elem__text__topic">Travel</p>
+                            <p class="popular__elem__text__headline">When a simple jewelry heist goes wrong</p>
+                        </div>
+                        <div class="popular__elem__cover">
+                            <img class="popular__elem__cover__img" src="../../images/covers/side/2.jpg" alt="cover"/>
+                        </div>
+                    </div>
+
+                    <div class="popular__elem">
+                        <div class="popular__elem__text">
+                            <p class="popular__elem__text__topic">Books</p>
+                            <p class="popular__elem__text__headline">The surviving criminals begin to suspect</p>
+                        </div>
+                        <div class="popular__elem__cover">
+                            <img class="popular__elem__cover__img" src="../../images/covers/side/3.jpg" alt="cover"/>
+                        </div>
+                    </div>
+
+                    <div class="popular__elem">
+                        <div class="popular__elem__text">
+                            <p class="popular__elem__text__topic">Art</p>
+                            <p class="popular__elem__text__headline">That one of them is a police informant</p>
+                        </div>
+                        <div class="popular__elem__cover">
+                            <img class="popular__elem__cover__img" src="../../images/covers/side/4.jpg" alt="cover"/>
+                        </div>
+                    </div>
+
+                    <div class="popular__elem">
+                        <div class="popular__elem__text">
+                            <p class="popular__elem__text__topic">Games</p>
+                            <p class="popular__elem__text__headline">Director: Quentin Tarantino</p>
+                        </div>
+                        <div class="popular__elem__cover">
+                            <img class="popular__elem__cover__img" src="../../images/covers/side/5.jpg" alt="cover"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subscribe">
+                    <div class="subscribe__text">
+                        <h3 class="subscribe__text__headline">Join us on YouTube</h3>
+                    </div>
+                    <div class="subscribe__button">
+                        <button class="subscribe__button__follow">Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="tagcloud">
+                    <a class="tagcloud__item" href="">#audio</a>
+                    <a class="tagcloud__item" href="">#progress</a>
+                    <a class="tagcloud__item" href="">#portfolio</a>
+                    <a class="tagcloud__item" href="">#question</a>
+                    <a class="tagcloud__item" href="">#photo</a>
+                    <a class="tagcloud__item" href="">#worldbicycleday</a>
+                    <a class="tagcloud__item" href="">#amazing</a>
+                    <a class="tagcloud__item" href="">#altai</a>
+                    <a class="tagcloud__item" href="">#design</a>
+                    <a class="tagcloud__item" href="">#storytelling</a>
+                    <a class="tagcloud__item" href="">#world</a>
+                    <a class="tagcloud__item" href="">#teg</a>
+                    <a class="tagcloud__item" href="">#oscar2019</a>
+                    <a class="tagcloud__item" href="">#diy</a>
+                    <a class="tagcloud__item" href="">#video</a>
+                    <a class="tagcloud__item" href="">#work</a>
+                    <a class="tagcloud__item" href="">#lifestyle</a>
+                    <a class="tagcloud__item" href="">#stream</a>
+                    <a class="tagcloud__item" href="">#travel</a>
+                    <a class="tagcloud__item" href="">#2019</a>
+                    <a class="tagcloud__item" href="">#behappy</a>
+                </div>
+
+            </div>
     </div>
 </section>
 
 
 </body>
+
+<script>
+    var hamburger = document.querySelector(".hamburger");
+    var menu__items = document.querySelector(".menu__items");
+    hamburger.addEventListener("click", function() {
+        hamburger.classList.toggle("is-active");
+        menu__items.classList.toggle("mobile");
+    });
+</script>
 </html>

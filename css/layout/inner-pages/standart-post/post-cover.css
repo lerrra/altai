@@ -10,7 +10,7 @@
 }
 
 .post-cover__text {
-    width: 70%;
+    width: 50%;
     align-self: center;
     padding: 0 4rem;
 }
@@ -41,9 +41,11 @@
 
 @media screen and (max-width: 944px){
     .post-cover {
+        height: 110vh;
         height: 30rem;
     }
     .post-cover__text {
+        width: 70%;
     }
     .post-cover__text__headline {
         font-size: 2.5rem;
@@ -54,9 +56,6 @@
 }
 
 @media screen and (max-width: 767px){
-    .post-cover {
-        height: 100vh;
-    }
     .post-cover__text {
         width: 80%;
     }
