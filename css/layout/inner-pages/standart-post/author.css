@@ -5,6 +5,8 @@
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
+
+        margin-bottom: 3rem;
     }
         .author__info {
             display: flex;

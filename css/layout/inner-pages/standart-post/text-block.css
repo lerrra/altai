@@ -1,0 +1,19 @@
+.block {
+    margin-bottom: 4rem;
+}
+    .text-block__title {
+        margin-bottom: 1.2rem;
+    }
+    .text-block__title__head {
+        font-size: 2.25rem;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    .text-block__text__paragraph {
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.7;
+
+        margin-bottom: 1rem;
+    }
