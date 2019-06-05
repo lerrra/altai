@@ -17,3 +17,20 @@
 
         margin-bottom: 1rem;
     }
+
+@media screen and (max-width: 1100px) {
+     .text-block__title__head {
+         font-size: 2rem;
+     }
+    .text-block__text__paragraph {
+        font-size: 1.125rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .text-block__title__head {
+        font-size: 1.75rem;
+    }
+    .text-block__text__paragraph {
+        font-size: 1rem;
+    }
+}
