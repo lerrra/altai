@@ -1,0 +1,26 @@
+.impact {
+    display: flex;
+    flex-flow: column;
+}
+
+.impact__text__phrase {
+    font-size: 2.25rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-bottom: 3rem;
+    margin: 3rem 1.5rem 3rem;
+
+    background-image: url("../../../../images/icons/hrr.svg");
+    background-size: auto 8px;
+    background-repeat: repeat-x;
+    background-position: 100% 95%;
+}
+
+.impact__devider__line {
+    background-image: url("../../../../images/icons/hrr.svg");
+    background-size: auto 3px;
+    background-repeat: repeat-x;
+    background-position: 100% 95%;
+}
