@@ -42,3 +42,23 @@
 .author__sharing {
     align-self: center;
 }
+
+
+@media screen and (max-width: 944px) {
+    .space {
+        padding: 0 6rem;
+    }
+
+    .author {
+        flex-flow: column;
+    }
+    .author__info {
+        align-self: center;
+    }
+}
+@media screen and (max-width: 440px) {
+    .space {
+        padding: 0 1rem;
+    }
+
+}

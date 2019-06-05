@@ -11,6 +11,8 @@
     }
     .sidebar {
         width: 30%;
+        display: flex;
+        flex-flow: column;
     }
 
 
@@ -70,7 +72,9 @@
                     }
 
 @media screen and (max-width: 1100px){
-    .popular {
+    .popular,
+    .subscribe,
+    .tagcloud {
         margin-right: 1rem;
     }
     .popular__elem {
@@ -92,21 +96,24 @@
     .post {
         flex-flow: column;
     }
+    .widecolumn {
+        width: 100%;
+    }
     .sidebar {
         flex-flow: row wrap;
         justify-content: space-between;
         width: 100%;
     }
     .popular {
+        width: 100%;
         flex-flow: row wrap;
         justify-content: flex-start;
-        width: 100%;
         margin-left: 1rem;
     }
-    .popular__elem {
-        width: 30%;
-        margin-right: 1rem;
-    }
+        .popular__elem {
+            width: 30%;
+            margin-right: 1rem;
+        }
     .popular__elem__text__headline {
         font-size: 1rem;
     }
