@@ -1,0 +1,42 @@
+.space {
+    padding: 0 4rem;
+}
+    .author {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+        .author__info {
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        .author__sharing {
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+.author__info__image {
+    margin-right: 1rem;
+}
+    .author__info__image__img {
+        width: 3.75rem;
+        height: 3.75rem;
+        object-fit: cover;
+        border-radius: 360rem;
+    }
+
+.author__info__text {
+    align-self: center;
+}
+    .author__info__text__name {
+        font-size: 1.125rem;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    .author__info__text__date {
+        font-size: 0.875rem;
+    }
+
+.author__sharing {
+    align-self: center;
+}
