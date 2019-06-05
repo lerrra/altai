@@ -42,13 +42,20 @@
 .author__sharing {
     align-self: center;
 }
+    .author__sharing__buttons__button {
+        width: 1.5rem;
+        height: 1.5rem;
+
+        margin-right: 0.5rem;
+    }
 
 
 @media screen and (max-width: 944px) {
     .space {
         padding: 0 6rem;
     }
-
+}
+@media screen and (max-width: 767px) {
     .author {
         flex-flow: column;
     }
