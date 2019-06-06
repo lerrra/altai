@@ -23,3 +23,17 @@
 .quote__text__description {
     font-weight: 300;
 }
+
+@media screen and (max-width: 767px) {
+    .quote__mark__img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .quote__text__quotation {
+        font-size: 1.25rem;
+    }
+    .quote__text__description {
+        font-size: 0.875rem;
+    }
+
+}
