@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 944px) {
     .space {
-        padding: 0 1rem;
+        margin: 0 1rem;
     }
 }
 @media screen and (max-width: 767px) {
