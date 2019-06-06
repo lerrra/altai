@@ -1,0 +1,37 @@
+.ordered-list,
+.unordered-list {
+    display: flex;
+    flex-flow: column;
+
+    padding: 1rem 0 2rem 1rem;
+}
+.ordered-list__item,
+.unordered-list__item {
+    display: flex;
+    flex-flow: row nowrap;
+
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+
+    padding-bottom: 0.5rem;
+}
+.ordered-list__item__number,
+.unordered-list__item__bullit {
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .ordered-list__item,
+    .unordered-list__item {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .ordered-list__item,
+    .unordered-list__item {
+        font-size: 1rem;
+    }
+}

@@ -1,5 +1,5 @@
 .space {
-    padding: 0 4rem;
+    margin: 0 4rem;
 }
     .author {
         display: flex;
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 944px) {
     .space {
-        padding: 0 6rem;
+        padding: 0 1rem;
     }
 }
 @media screen and (max-width: 767px) {
@@ -62,10 +62,4 @@
     .author__info {
         align-self: center;
     }
-}
-@media screen and (max-width: 440px) {
-    .space {
-        padding: 0 1rem;
-    }
-
 }

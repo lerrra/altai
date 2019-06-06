@@ -2,14 +2,14 @@
     display: flex;
     flex-flow: row nowrap;
 
-    margin: 2rem 0;
+    padding: 2rem 0;
 }
 
 .quote__mark__img {
     width: 2.5rem;
     height: 2.5rem;
 
-    margin-right: 1rem;
+    padding-right: 1rem;
 }
 
 .quote__text__quotation {
