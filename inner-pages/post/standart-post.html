@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../../css/layout/inner-pages/standart-post/lists.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/layout/inner-pages/standart-post/post-sharing.css" type="text/css" media="all">
     <link rel="stylesheet" href="../../css/layout/inner-pages/standart-post/recommend.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../css/layout/inner-pages/standart-post/comment.css" type="text/css" media="all">
 
     <link rel="stylesheet" href="../../css/config/hamburgers.css" type="text/css" media="all">
 
@@ -319,7 +320,80 @@
                 </div>
             </div>
 
-        </div>
+            <div class="comment block">
+                <div class="comment__headline">
+                    <h2 class="comment__headline__head">2 comments</h2>
+                </div>
+
+            <div class="comment__form">
+                <div class="comment__form__textarea">
+                    <textarea class="comment__form__textarea__inner" name="reply" placeholder="Your comment here"></textarea>
+                </div>
+                <div class="comment__form__input">
+                    <input class="comment__form__button" type="submit" value="Post"/>
+                </div>
+            </div>
+
+                <div class="comment__info">
+                    <div class="comment__info__name">
+                        <label for="name">Name<span class="required">*</span></label>
+                        <input id="name" name="name" type="text" maxlength="240" required="required"/>
+                    </div>
+                    <div class="comment__info__email">
+                        <label for="email">Email<span class="required">*</span></label>
+                        <input id="email" name="email" type="email" maxlength="100" required="required"/>
+                    </div>
+                    <div class="comment__info__text">
+                        <p class="comment__info__text__paragraph">Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+                    </div>
+                </div>
+
+                <div class="comment__reply">
+                    <div class="comment__reply__parent">
+                        <div class="comment__name">
+                            <div class="comment__name__image">
+                                <img class="comment__name__image__img" src="../../images/post/marty.jpeg" alt="avatar"/>
+                            </div>
+                            <div class="comment__name__text">
+                                <p class="comment__name__text__name comment__author">Marty McFly</p>
+                                <p class="comment__name__text__date">August, 8 / 2019</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__text">
+                            <p class="comment__text__paragraph">
+                                Doc, I'm from the future. I came here in a time machine that you invented.
+                                Now, I need your help to get back to the year 1985
+                            </p>
+                            <button class="comment__text__button">Reply</button>
+                        </div>
+                    </div>
+
+                    <div class="comment__reply__child">
+                        <div class="comment__name">
+                            <div class="comment__name__image">
+                                <img class="comment__name__image__img" src="../../images/post/bttf1_doc-brown.jpg" alt="avatar"/>
+                            </div>
+                            <div class="comment__name__text">
+                                <p class="comment__name__text__name">Emmett Brown</p>
+                                <p class="comment__name__text__date">August, 9 / 2019</p>
+                            </div>
+                        </div>
+
+                        <div class="comment__text">
+                            <p class="comment__text__paragraph">
+                                If I know too much about my own future I could endanger my own existence, just as you endangered yours.
+                                So tell me, future boy, who's president of the United States in 1985?
+                            </p>
+                            <button class="comment__text__button">Reply</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
 
 
         <div class="sidebar">
