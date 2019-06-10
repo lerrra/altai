@@ -122,52 +122,52 @@
 /*Background-images*/
 
 .posts__card.one {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_7_bear.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_7_bear.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .posts__card.two {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_1_journey.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_1_journey.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .posts__card.three {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_2_books.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_2_books.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .posts__card.four {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_4_plane.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_4_plane.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .posts__card.five {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_5_cat.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_5_cat.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .posts__card.six {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_6_beach.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_6_beach.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .posts__card.seven {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_18_boats.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_18_boats.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .posts__card.eight {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_9_green.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_9_green.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .posts__card.nine {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_11_building.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_11_building.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .posts__card.ten {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../images/covers/_13_nature.jpg) center center no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url(../../../../images/covers/_13_nature.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -248,7 +248,7 @@
                 flex-flow: row nowrap;
                 justify-content: space-between;
 
-                background-image: url("../../../images/icons/hrr.svg");
+                background-image: url("../../../../images/icons/hrr.svg");
                 background-size: auto 3px;
                 background-repeat: repeat-x;
                 background-position: 100% 100%;
@@ -343,7 +343,7 @@
 }
 
         .subscribe {
-            background-image: url("../../../images/icons/social/pattern.png");
+            background-image: url("../../../../images/icons/social/pattern.png");
             background-size: auto 5rem;
             background-repeat: repeat;
             background-position: 100% 100%;

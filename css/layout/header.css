@@ -1,5 +1,4 @@
 .header {
-    margin: 5rem 0 4rem 0;
 }
 
 .menu {
@@ -7,6 +6,8 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+
+    margin: 5rem 0 4rem 0;
 }
 
     .menu__inner {
@@ -71,10 +72,10 @@
 
 @media screen and (max-width: 1100px){
     .header {
-        margin: 1rem 0;
     }
     .menu {
         flex-flow: column;
+        margin: 1rem 0;
     }
     .menu__logo__text {
         font-size: 2rem;

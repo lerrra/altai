@@ -1,0 +1,10 @@
+html {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    font: normal 16px/1.5 'Roboto', sans-serif;
+}
+
+.col {
+    max-width: 75rem;
+    margin: 0 auto;
+}
