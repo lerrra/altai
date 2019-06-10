@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
-    margin: 2rem 0 1rem;
+    padding: 1rem 0 1rem;
 }
     .two-images__elem {
         width: 49%;
@@ -10,7 +10,7 @@
 
         .two-images__elem__image-1 {
             height: 20rem;
-            margin: 2rem 0 1rem;
+            margin: 1rem 0 1rem;
 
             background: url(../../../../images/post/two-img-1.jpg) center center no-repeat;
             background-size: cover;
@@ -18,7 +18,7 @@
         }
         .two-images__elem__image-2 {
             height: 20rem;
-            margin: 2rem 0 1rem;
+            margin: 1rem 0 1rem;
 
             background: url(../../../../images/post/table.jpg) center center no-repeat;
             background-size: cover;
@@ -27,9 +27,10 @@
 
     .two-images__elem__description__text {
         font-weight: 300;
+        line-height: 1.2;
         text-align: center;
+        padding: 0 1rem 1rem;
 
-        margin-bottom: 2rem;
     }
 
 @media screen and (max-width: 944px) {
@@ -55,6 +56,9 @@
     .two-images__elem__image-2 {
         height: 18rem;
         margin: 1rem;
+    }
+    .two-images__elem__description__text {
+        font-size: 0.875rem;
     }
 }
 @media screen and (max-width: 440px) {
