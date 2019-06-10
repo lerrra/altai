@@ -1,4 +1,5 @@
-.comment__headline__head {
+.comment__headline__head,
+.more-articles__headline__head {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: bold;
