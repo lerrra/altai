@@ -139,7 +139,7 @@
 
 }
 
-        .subscribe {
+        .small-subscribe {
             background-image: url("../../../../images/icons/social/pattern.png");
             background-size: auto 5rem;
             background-repeat: repeat;
@@ -153,23 +153,23 @@
             margin-bottom: 3rem;
         }
 
-            .subscribe__text {
+            .small-subscribe__text {
                 padding: 3rem 0 1.5rem;
             }
 
-                .subscribe__text__headline {
+                .small-subscribe__text__headline {
                     font-size: 1.5rem;
                     font-weight: bold;
                     line-height: 1.5rem;
                     text-align: center;
                 }
-                .subscribe__button {
+                .small-subscribe__button {
                     display: flex;
                     justify-content: center;
 
                     padding-bottom: 3rem;
                 }
-                .subscribe__button__follow {
+                .small-subscribe__button__follow {
                     outline: none;
                     background-image: linear-gradient(to top left,#f50057,#9B51E0);
                     color: #ffffff;
@@ -179,7 +179,7 @@
                 }
 
 @media screen and (max-width: 944px){
-    .subscribe {
+    .small-subscribe {
         width: 45%;
         margin: 0 1rem 3rem 1rem;
         justify-content: center;
@@ -187,7 +187,7 @@
 }
 
 @media screen and (max-width: 640px){
-    .subscribe {
+    .small-subscribe {
         width: 100%;
     }
 
