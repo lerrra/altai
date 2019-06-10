@@ -1,0 +1,42 @@
+.big-image-description {
+    display: flex;
+    flex-flow: column;
+}
+
+.big-image-description__image {
+    height: 40rem;
+    margin: 2rem 0 1rem;
+
+    background: url(../../../../images/covers/_20_cobenhavn.jpg) center center no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.big-image-description__description__text {
+    font-weight: 300;
+    text-align: center;
+
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .big-image-description__image {
+        height: 30rem;
+    }
+}
+@media screen and (max-width: 767px){
+    .big-image-description__image {
+        margin: 1rem 0 1rem;
+        height: 25rem;
+    }
+    .big-image-description__description__text {
+        font-size: 0.875rem;
+    }
+}
+@media screen and (max-width: 440px) {
+    .big-image-description__image {
+        height: 20rem;
+    }
+
+}
