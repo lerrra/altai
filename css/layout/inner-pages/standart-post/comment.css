@@ -148,3 +148,31 @@
         font-size: 1.5rem;
     }
 }
+@media screen and (max-width: 640px) {
+    .comment__info {
+        flex-flow: column;
+    }
+    .comment__form__button {
+        position: relative;
+        margin-left: 1rem;
+        bottom: 0;
+    }
+
+
+    .comment__info__name,
+    .comment__info__email,
+    .comment__info__text {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+    .comment__info__text__paragraph {
+        text-align: left;
+    }
+    .comment__text__paragraph {
+        font-size: 0.875rem;
+    }
+    .comment__reply__child {
+        padding-left: 2rem;
+    }
+
+}
