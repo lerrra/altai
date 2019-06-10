@@ -1,17 +1,18 @@
-.space {
-    margin: 0 4rem;
+.author {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    padding-bottom: 3rem;
 }
-    .author {
+
+
+    .author__info {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
-
-        padding-bottom: 3rem;
+        align-self: center;
+        padding-bottom: 0.75rem;
     }
-        .author__info {
-            display: flex;
-            flex-flow: row nowrap;
-        }
         .author__sharing {
             display: flex;
             flex-flow: row nowrap;
@@ -30,6 +31,7 @@
         .author__info__text {
             align-self: center;
         }
+
             .author__info__text__name {
                 font-size: 1.125rem;
                 font-weight: bold;
@@ -39,9 +41,9 @@
                 font-size: 0.875rem;
             }
 
-        .author__sharing {
-            align-self: center;
-        }
+            .author__sharing {
+                align-self: center;
+            }
             .author__sharing__buttons__button {
                 width: 1.5rem;
                 height: 1.5rem;
@@ -50,15 +52,7 @@
             }
 
 
-@media screen and (max-width: 944px) {
-    .space {
-        margin: 0 1rem;
-    }
-}
 @media screen and (max-width: 767px) {
-    .author {
-        flex-flow: column;
-    }
     .author__info {
         align-self: center;
     }

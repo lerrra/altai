@@ -8,3 +8,12 @@ html {
     max-width: 75rem;
     margin: 0 auto;
 }
+
+.f-space {
+    margin: 0 10rem;
+}
+@media screen and (max-width: 944px) {
+    .f-space {
+        margin: 0 1rem;
+    }
+}
