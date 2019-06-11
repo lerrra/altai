@@ -9,11 +9,18 @@ html {
     margin: 0 auto;
 }
 
+.section {
+    margin-bottom: 4rem;
+}
+
 .f-space {
     margin: 0 14rem;
 }
 .f-half-space {
     margin-left: 14rem;
+}
+.f-half-right {
+    margin-right: 28rem;
 }
 
 .f-block {
@@ -27,6 +34,9 @@ html {
     }
     .f-half-space {
         margin-left: 1rem;
+    }
+    .f-half-right {
+        margin-right: 1rem;
     }
 }
 @media screen and (max-width: 440px) {

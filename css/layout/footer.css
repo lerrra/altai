@@ -67,6 +67,7 @@
             .footer__blog__link {
                 text-decoration: none;
                 color: #ffffff;
+                line-height: 1.5;
 
                 padding-right: 1rem;
                 margin-bottom: 0.5rem;

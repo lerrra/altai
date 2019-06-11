@@ -22,9 +22,11 @@
         .subscribe__text__headline {
             font-size: 2rem;
             font-weight: bold;
+            line-height: 1.7;
         }
         .subscribe__text__lead {
             font-size: 1.125rem;
+            line-height: 1.5;
         }
 
     .subscribe__input {
@@ -55,6 +57,7 @@
             input {
                 outline: none;
                 color: #ffffff;
+                line-height: 1.5;
             }
 
 

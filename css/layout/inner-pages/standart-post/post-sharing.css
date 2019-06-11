@@ -3,7 +3,7 @@
     flex-flow: row nowrap;
     justify-content: space-between;
 
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
     .post-sharing__button {
