@@ -15,6 +15,24 @@ html {
     margin-bottom: 4rem;
 }
 
+
+
+.post {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+    .side {
+        width: 32%;
+        background-color: #333333;
+        border-top: 1px solid #f50057;
+    }
+    .widecolumn {
+        width: 65%;
+    }
+
+
+
 @media screen and (max-width: 944px) {
     .f-space {
         margin-right: 1rem;

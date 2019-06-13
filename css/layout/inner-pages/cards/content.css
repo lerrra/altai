@@ -1,0 +1,18 @@
+.content {
+    margin: 3rem 2rem;
+}
+.content__item__text {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #ffffff;
+
+    padding-bottom: 1rem;
+}
+
+.content__item__link {
+    color: #ffffff;
+    text-decoration: none;
+}
+.content__item__link:hover {
+    border-bottom: 1px solid #f50057;
+}
