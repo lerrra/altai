@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: row nowrap;
 
-    padding: 2rem 0;
+    padding: 2rem 0 1rem;
 }
 
 .quote__mark__img {

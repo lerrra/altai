@@ -2,6 +2,8 @@ html {
     background-color: #1f1f1f;
     color: #ffffff;
     font: normal 16px/1.5 'Roboto', sans-serif;
+
+    scroll-behavior: smooth;
 }
 
 .col {
@@ -24,10 +26,10 @@ html {
 }
     .side {
         width: 32%;
-        background-color: #333333;
-        border-top: 1px solid #f50057;
     }
     .widecolumn {
+        display: flex;
+        flex-flow: column;
         width: 65%;
     }
 
