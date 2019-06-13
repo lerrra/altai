@@ -39,7 +39,11 @@ html {
         width: 65%;
     }
 
-
+@media screen and (max-width: 1210px) {
+    .post {
+        margin: 0 1rem;
+    }
+}
 
 @media screen and (max-width: 944px) {
     .f-space {
@@ -48,5 +52,11 @@ html {
     }
     .f-half-right {
         margin-right: 1rem;
+    }
+    .side {
+        display: none;
+    }
+    .widecolumn {
+        width: 100%;
     }
 }
