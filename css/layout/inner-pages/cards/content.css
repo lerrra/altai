@@ -2,6 +2,9 @@
     background-color: #333333;
     border-top: 1px solid #f50057;
     padding: 3rem 2rem;
+
+    position: sticky;
+    top: 2rem;
 }
 .content__item__text {
     font-size: 1.125rem;

@@ -10,8 +10,14 @@ html {
     max-width: 75rem;
     margin: 0 auto;
 }
+.section {
+    margin-bottom: 4rem;
+}
 .f-space {
     margin: 0 14rem;
+}
+.f-half-right {
+    margin-right: 28rem;
 }
 .c-block {
     margin-bottom: 4rem;
@@ -39,5 +45,8 @@ html {
     .f-space {
         margin-right: 1rem;
         margin-left: 1rem;
+    }
+    .f-half-right {
+        margin-right: 1rem;
     }
 }
