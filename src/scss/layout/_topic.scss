@@ -1,11 +1,14 @@
 /*Divider*/
 .divider {
     margin: 8rem 0 2rem;
+
+    @media screen and (max-width: 1100px) {
+        margin: 6rem 0 2rem;
+    }
 }
 .divider__head {
     display: flex;
     justify-content: center;
-
 }
 
 .divider__head__headline {
@@ -19,27 +22,21 @@
     background-size: auto 3px;
     background-repeat: repeat-x;
     background-position: 100% 100%;
-}
 
-.divider__head__headline:hover {
-    background: linear-gradient(to top left,#f50057,#9B51E0);
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-@media screen and (max-width: 1100px) {
-    .divider {
-        margin: 6rem 0 2rem;
-    }
-    .divider__head__headline {
+    @media screen and (max-width: 1100px) {
         font-size: 2rem;
     }
-}
-@media screen and (max-width: 767px){
-    .divider__head__headline {
+    @media screen and (max-width: 767px){
         font-size: 1.5rem;
     }
+
+    &:hover {
+        background: linear-gradient(to top left,#f50057,#9B51E0);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
 }
+
 
 
 /*First part of the Topic's Block*/

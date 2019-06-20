@@ -1384,6 +1384,17 @@ gulp-plumber@^1.2.1:
     plugin-error "^0.1.2"
     through2 "^2.0.3"
 
+gulp-sass-glob@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/gulp-sass-glob/-/gulp-sass-glob-1.0.9.tgz#749549a320d1545a9b3258880734828ab2911e28"
+  integrity sha512-5NgvOYE8OrYj3hmxL4Tf79qdxRTJXe2UdAM+L6R/qu4h9ZPvoujtPYk/CmpNReuBJdDXR2DNWeq6t58NFARYUA==
+  dependencies:
+    glob "^7.1.2"
+    minimatch "^3.0.4"
+    safe-buffer "^5.1.1"
+    slash "^2.0.0"
+    through2 "^2.0.3"
+
 gulp-sass@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/gulp-sass/-/gulp-sass-4.0.2.tgz#cfb1e3eff2bd9852431c7ce87f43880807d8d505"
@@ -2842,7 +2853,7 @@ rimraf@2, rimraf@^2.6.1:
   dependencies:
     glob "^7.1.3"
 
-safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
@@ -3004,6 +3015,11 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+
+slash@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
+  integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
 
 snapdragon-node@^2.0.1:
   version "2.1.1"

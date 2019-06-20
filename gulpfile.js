@@ -4,17 +4,18 @@ var concat = require('gulp-concat');
 var cleanCss = require('gulp-clean-css');
 var plumber = require('gulp-plumber');
 var prefix = require('gulp-autoprefixer');
-var flatten = require('gulp-flatten');
 var connect = require('gulp-connect');
+var sassGlob  = require('gulp-sass-glob');
 
 var path = {
   source: 'src/',
-  assets: 'app/assets/'
+  assets: 'build/assets/'
 }
 
 gulp.task('styles', function (done) {
-  gulp.src([path.source + '/styles/app.scss'])
+  gulp.src([path.source + '/scss/app.scss'])
     .pipe(plumber())
+    .pipe(sassGlob())
     .pipe(sass({ errLogToConsole: true }))
     .pipe(prefix(['ie >= 10', 'ff >= 30', 'chrome >= 34', 'safari >= 7', 'opera >= 23', 'ios >= 7', 'android >= 4.4']))
     .pipe(concat('styles.min.css'))
@@ -25,8 +26,7 @@ gulp.task('styles', function (done) {
 })
 
 gulp.task('images', function (done) {
-  gulp.src([path.source + '/images/*.{jpg,png,gif}'])
-    .pipe(flatten())
+  gulp.src([path.source + '/images/**/*.{jpg,png,gif,ico}'])
     .pipe(gulp.dest(path.assets + '/images/'));
 
   done();
@@ -40,7 +40,7 @@ gulp.task('watch', function (done) {
 
 gulp.task('connect', function(done) {
   connect.server({
-    root: 'app'
+    root: 'build'
   });
 
   done();
