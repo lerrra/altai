@@ -26,7 +26,7 @@ gulp.task('styles', function (done) {
 })
 
 gulp.task('images', function (done) {
-  gulp.src([path.source + '/images/**/*.{jpg,png,gif,ico}'])
+  gulp.src([path.source + '/images/**/*.{jpg,png,gif,ico,svg}'])
     .pipe(gulp.dest(path.assets + '/images/'));
 
   done();
