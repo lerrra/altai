@@ -1,7 +1,15 @@
-@import "config/reset";
-@import "config/hamburgers";
+// Reset default styles
+@import "helpers/reset";
 
-$content-width: 75rem;
+// Widtg and color variables
+@import "helpers/variables";
+
+// Common use mixins
+@import "helpers/mixins";
+
+// Text styles snippets
+@import "helpers/snippets";
+
 
 html {
   background-color: #1f1f1f;
@@ -13,8 +21,17 @@ body {
   font: normal 16px/1.5 'Roboto', sans-serif;
 }
 
-section {
-  margin-bottom: 4rem;
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
+// Import components
+@import "parts/*.scss";
+
+// Import layouts
 @import "layout/*.scss";
+
+// Backward compatibility
+@import "css/*.scss";
