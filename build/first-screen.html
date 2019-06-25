@@ -2,8 +2,8 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, minimal-ui">
 
     <link rel="stylesheet" href="/assets/styles.min.css" type="text/css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i&amp;subset=cyrillic" rel="stylesheet">
@@ -46,15 +46,18 @@
         </div>
     </header>
 
-    <div class="block block--insight">
-        <div class="feature">
+    <div class="content">
+        <div class="feature feature--front">
             <figure class="feature__poster">
-                <img class="feature__poster-image" src="/assets/images/covers/_18_boats.jpg" alt="">
+                <img src="/assets/images/covers/_18_boats.jpg" alt="">
             </figure>
 
             <div class="feature__content">
-                <a class="feature__content-topic" href="#">Books</a>
-                <a class="feature__content-title" href="#">From Saul Goodman: Your Future Lawyer</a>
+                <a class="feature__content-topic" href="#books">Books</a>
+
+                <h2 class="feature__content-title">
+                    <a class="feature__content-link" href="#link">From Saul Goodman: Your Future Lawyer</a>
+                </h2>
 
                 <div class="feature__content-lead">
                     <p>Walter, I'm your lawyer. Anything you say to me is totally privileged</p>
@@ -62,51 +65,67 @@
             </div>
         </div>
 
-        <div class="popular" style="display: none;">
-            <div class="popular__item">
-                <a class="popular__item-topic" href="#">Art</a>
-                <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
+        <div class="insight insight--front" style="display: none;">
+            <div class="feature">
+                <figure class="feature__poster">
+                    <img class="feature__poster-image" src="/assets/images/covers/_18_boats.jpg" alt="">
+                </figure>
 
-                <img class="popular__item-image" src="/assets/images/covers/side/1.jpg" alt="cover"/>
+                <div class="feature__content">
+                    <a class="feature__content-topic" href="#">Books</a>
+                    <a class="feature__content-title" href="#">From Saul Goodman: Your Future Lawyer</a>
+
+                    <div class="feature__content-lead">
+                        <p>Walter, I'm your lawyer. Anything you say to me is totally privileged</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="popular__item">
-                <a class="popular__item-topic" href="#">Art</a>
-                <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
+            <div class="popular">
+                <div class="popular__item">
+                    <a class="popular__item-topic" href="#">Art</a>
+                    <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
 
-                <img class="popular__item-image" src="/assets/images/covers/side/2.jpg" alt="cover"/>
-            </div>
+                    <img class="popular__item-image" src="/assets/images/covers/side/1.jpg" alt="cover"/>
+                </div>
 
-            <div class="popular__item">
-                <a class="popular__item-topic" href="#">Art</a>
-                <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
+                <div class="popular__item">
+                    <a class="popular__item-topic" href="#">Art</a>
+                    <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
 
-                <img class="popular__item-image" src="/assets/images/covers/side/3.jpg" alt="cover"/>
-            </div>
+                    <img class="popular__item-image" src="/assets/images/covers/side/2.jpg" alt="cover"/>
+                </div>
 
-            <div class="popular__item">
-                <a class="popular__item-topic" href="#">Art</a>
-                <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
+                <div class="popular__item">
+                    <a class="popular__item-topic" href="#">Art</a>
+                    <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
 
-                <img class="popular__item-image" src="/assets/images/covers/side/4.jpg" alt="cover"/>
-            </div>
+                    <img class="popular__item-image" src="/assets/images/covers/side/3.jpg" alt="cover"/>
+                </div>
 
-            <div class="popular__item">
-                <a class="popular__item-topic" href="#">Art</a>
-                <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
+                <div class="popular__item">
+                    <a class="popular__item-topic" href="#">Art</a>
+                    <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
 
-                <img class="popular__item-image" src="/assets/images/covers/side/5.jpg" alt="cover"/>
-            </div>
+                    <img class="popular__item-image" src="/assets/images/covers/side/4.jpg" alt="cover"/>
+                </div>
 
-            <div class="popular__item">
-                <a class="popular__item-topic" href="#">Art</a>
-                <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
+                <div class="popular__item">
+                    <a class="popular__item-topic" href="#">Art</a>
+                    <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
 
-                <img class="popular__item-image" src="/assets/images/covers/side/6.jpg" alt="cover"/>
+                    <img class="popular__item-image" src="/assets/images/covers/side/5.jpg" alt="cover"/>
+                </div>
+
+                <div class="popular__item">
+                    <a class="popular__item-topic" href="#">Art</a>
+                    <a class="popular__item-title" href="#">Reservoir Dogs <br>Crime, Drama</a>
+
+                    <img class="popular__item-image" src="/assets/images/covers/side/6.jpg" alt="cover"/>
+                </div>
             </div>
         </div>
     </div>
-
 
     <script>
         var hamburger = document.querySelector(".hamburger");

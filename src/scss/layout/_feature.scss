@@ -1,7 +1,93 @@
 .feature {
-  display: flex;
-  position: relative;
+  @include flex();
 
-  width: 100%;
-  max-width: $content-width;
+  position: relative;
+  width: $width-content;
+  max-width: 100%;
+
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+
+  &::before {
+    content: '';
+
+    width: 1px;
+    height: 0;
+    margin-left: -1px;
+    padding-top: 50%;
+  }
+
+  .feature__poster {
+    @include full-child();
+
+    display: flex;
+    overflow: hidden;
+
+    background: rgba(#000, 0.5);
+    transition: background 0.25s;
+
+    & > img {
+      display: block;
+      position: relative;
+      z-index: -1;
+
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .feature__content {
+    display: block;
+    position: static;
+    z-index: 1;
+
+    max-width: 50%;
+    padding: 4rem;
+
+    .feature__content-topic {
+      @extend %topic;
+
+      display: inline-block;
+      position: relative;
+      z-index: 2;
+      margin-bottom: 1rem;
+    }
+
+    .feature__content-title {
+      @extend %h2;
+
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .feature__content-lead {
+      @extend %lead;
+
+      display: block;
+      max-width: 60%;
+    }
+
+    .feature__content-link {
+      display: block;
+
+      &::after {
+        @include full-child();
+
+        display: block;
+        content: '';
+      }
+    }
+
+    @media screen and (max-width: 1023px) {
+      max-width: 80%;
+    }
+
+    @media screen and (max-width: 767px) {
+      max-width: 100%;
+      padding: 2rem 1rem;
+    }
+  }
+
+  &:hover .feature__poster {
+    background: rgba(#000, 0.6);
+  }
 }
