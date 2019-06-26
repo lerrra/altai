@@ -1,5 +1,6 @@
 .feature {
-  @include flex();
+  display: flex;
+  align-items: center;
 
   position: relative;
   width: $width-content;
@@ -10,9 +11,8 @@
   &::before {
     content: '';
 
-    width: 1px;
+    width: 0;
     height: 0;
-    margin-left: -1px;
     padding-top: 50%;
   }
 
@@ -23,7 +23,7 @@
     overflow: hidden;
 
     background: rgba(#000, 0.5);
-    transition: background 0.25s;
+    transition: background 0.375s;
 
     & > img {
       display: block;
@@ -72,8 +72,8 @@
       &::after {
         @include full-child();
 
-        display: block;
         content: '';
+        display: block;
       }
     }
 

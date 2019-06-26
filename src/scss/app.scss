@@ -12,12 +12,11 @@
 
 
 html {
-  background-color: #1f1f1f;
-  color: #ffffff;
+  background-color: $color-background;
+  color: $color-text;
 }
 
 body {
-  padding: 0;
   font: normal 16px/1.5 'Roboto', sans-serif;
 }
 
