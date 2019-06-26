@@ -566,7 +566,13 @@
 
         </footer>
     </section>
-
-
 </body>
+<script>
+    var hamburger = document.querySelector(".hamburger");
+    var menu__items = document.querySelector(".menu__items");
+    hamburger.addEventListener("click", function() {
+        hamburger.classList.toggle("is-active");
+        menu__items.classList.toggle("mobile");
+    });
+</script>
 </html>

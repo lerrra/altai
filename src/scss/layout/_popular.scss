@@ -19,6 +19,8 @@
     padding-bottom: 1rem;
     padding-right: 4rem;
 
+    min-height: 5rem;
+
     @include wave-line();
 
     .popular__item-topic {
@@ -45,12 +47,13 @@
 
     .popular__item-title {
       @extend %h4;
+      min-height: 2.5rem;
+      margin-bottom: 0.25rem;
     }
 
     .popular__item-image {
-      display: block;
+      display: flex;
       position: absolute;
-      top: 50%;
       right: 0;
 
       width: 3rem;
@@ -62,6 +65,8 @@
 
       border-radius: 50%;
       transform: translateY(-50%);
+
+      box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.5);
     }
   }
 }
