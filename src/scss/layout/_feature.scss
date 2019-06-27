@@ -8,6 +8,8 @@
 
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 
+  min-height: 15rem;
+
   &::before {
     content: '';
 
@@ -32,9 +34,6 @@
 
       object-fit: cover;
       object-position: center;
-    }
-    @media screen and (max-width: 767px) {
-      min-height: 15rem;
     }
   }
 
