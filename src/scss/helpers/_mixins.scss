@@ -13,3 +13,9 @@
   background-repeat: repeat-x;
   background-position: 100% 100%;
 }
+
+@mixin emphasis {
+  background-image: linear-gradient(to top left,#f50057,#9B51E0);
+  -webkit-background-clip: text;
+  color: transparent;
+}

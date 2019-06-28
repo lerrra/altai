@@ -12,6 +12,14 @@
   @media screen and (max-width: 1023px) {
     width: 100%;
   }
+
+  &::before {
+    content: '';
+
+    width: 0;
+    height: 0;
+    padding-top: 20%;
+  }
 }
 
   .unit {
@@ -31,7 +39,6 @@
         padding-top: 20%;
       }
 
-
       .unit__poster {
         @include full-child();
 
@@ -48,13 +55,6 @@
 
           object-fit: cover;
           object-position: center;
-        }
-
-        &::after {
-          @include full-child();
-
-          content: '';
-          display: block;
         }
       }
 
@@ -88,6 +88,7 @@
 
             content: '';
             display: block;
+            z-index: 1;
           }
         }
       }
@@ -98,7 +99,7 @@
     }
   }
 
-  .unit--duo {
+  .unit--quatro {
     width: calc(50% - .5rem);
     margin-bottom: 1rem;
     box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
