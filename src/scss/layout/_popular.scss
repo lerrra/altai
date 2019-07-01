@@ -53,16 +53,15 @@
       display: flex;
       position: absolute;
       right: 0;
+      bottom: -0.5rem;
 
       width: 3rem;
       height: 3rem;
-      margin-left: auto;
 
       object-fit: cover;
       object-position: center;
 
       border-radius: 50%;
-      transform: translateY(-50%);
 
       box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.5);
     }
