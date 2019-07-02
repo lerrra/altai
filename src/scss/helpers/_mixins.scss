@@ -14,8 +14,24 @@
   background-position: 100% 100%;
 }
 
-@mixin emphasis {
+@mixin emphasis() {
   background-image: linear-gradient(to top left,#f50057,#9B51E0);
   -webkit-background-clip: text;
   color: transparent;
+}
+
+@mixin pattern($background-size) {
+  background-image: url('/assets/images/icons/social/pattern.png');
+  background-size: $background-size;
+  background-repeat: repeat;
+  background-position: 100% 100%;
+}
+
+@mixin button() {
+  outline: none;
+  background-image: linear-gradient(to top left,#f50057,#9B51E0);
+  color: #ffffff;
+  padding: 0.5rem 1.125rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
 }
