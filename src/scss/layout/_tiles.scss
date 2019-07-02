@@ -13,11 +13,20 @@
     position: relative;
     width: calc(100% / 4 - 1.5rem);
 
-    margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin: 2rem 0 3rem;
     padding-bottom: 4rem;
 
     @include wave-line();
+
+    @media screen and (max-width: 767px){
+      width: calc(50% - 1rem);
+      padding-bottom: 2rem;
+    }
+
+    @media screen and (max-width: 479px){
+      width: 100%;
+      margin: 1rem 1rem 2rem;
+    }
 
     .tile__item-image {
       display: block;
@@ -44,6 +53,7 @@
 
     .tile__item-title {
       z-index: 1;
+      margin-bottom: .5rem;
       @extend %h3;
     }
 

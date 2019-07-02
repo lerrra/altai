@@ -4,7 +4,7 @@
 
   width: $width-content;
   max-width: 100%;
-  margin: 2rem 0;
+  margin-top: 2rem;
 
   & > * {
     margin-bottom: 1rem;
@@ -202,14 +202,5 @@
     position: relative;
 
     width: 100%;
-    max-width: 100%;
-  }
-
-  .topic--tiles {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-
-    width: 75rem;
     max-width: 100%;
   }
