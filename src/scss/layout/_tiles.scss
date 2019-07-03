@@ -3,7 +3,7 @@
   flex-flow: row wrap;
   justify-content: space-between;
 
-  width: 75rem;
+  width: $width-content;
   max-width: 100%;
 
   .tile__item {

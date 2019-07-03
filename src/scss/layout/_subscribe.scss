@@ -1,0 +1,92 @@
+.subscribe {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  width: $width-content;
+  max-width: 100%;
+
+  padding: 1.5rem 1rem;
+
+  @include pattern(5rem auto);
+
+  .subscribe__form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    width: fit-content;
+
+    position: relative;
+
+    background-color: #333333;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+    padding: 2rem 4rem 2rem;
+
+    @media screen and (max-width: 767px) {
+      padding: 2rem;
+    }
+
+    .subscribe__form-title {
+      display: inline-block;
+      margin-bottom: .5rem;
+
+      @extend %h2;
+    }
+    .subscribe__form-lead {
+      display: inline;
+      margin-bottom: 2rem;
+
+      @extend %lead;
+
+      @media screen and (max-width: 767px) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .subscribe__form__input {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      width: 80%;
+      max-width: 100%;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 479px) {
+        flex-flow: column;
+      }
+
+      .subscribe__form__input-email {
+        display: flex;
+        align-items: center;
+
+        width: 70%;
+        max-width: 100%;
+
+        outline: none;
+        background: none;
+        color: #ffffff;
+
+        border: 0;
+        border-bottom: 1px solid #f50057;
+
+        padding-bottom: .5rem;
+        margin-bottom: 1rem;
+
+        @media screen and (max-width: 479px) {
+          width: 100%;
+        }
+
+      }
+      .subscribe__form__input-button {
+        margin-bottom: .5rem;
+        @include button();
+      }
+    }
+  }
+}
