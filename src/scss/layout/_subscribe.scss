@@ -6,9 +6,9 @@
   width: $width-content;
   max-width: 100%;
 
-  padding: 1.5rem 1rem;
+  padding: 2rem 1rem;
 
-  @include pattern(5rem auto);
+  @include pattern(6rem auto);
 
   .subscribe__form {
     display: flex;

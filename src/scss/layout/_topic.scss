@@ -91,21 +91,21 @@
           padding: 2rem 1rem;
         }
 
-        .main__content-title {
+        .card__main__content-title {
           display: block;
           margin-bottom: 1rem;
 
           @extend %h2;
         }
 
-        .main__content-lead {
+        .card__main__content-lead {
           @extend %lead;
 
           display: block;
           max-width: 60%;
         }
 
-        .main__content-link {
+        .card__main__content-link {
           display: block;
 
           &::after {
@@ -171,13 +171,13 @@
           padding: 1.5rem 1rem;
         }
 
-        .secondary__content-title {
+        .card__secondary__content-title {
           display: block;
 
           @extend %h3;
         }
 
-        .secondary__content-link {
+        .card__secondary__content-link {
           display: block;
 
           &::after {
@@ -238,13 +238,13 @@
 
         padding: 1.5rem 1rem;
 
-        .bit__content-title {
+        .card__bit__content-title {
           display: block;
 
           @extend %h3;
         }
 
-        .bit__content-link {
+        .card__bit__content-link {
           display: block;
 
           &::after {
