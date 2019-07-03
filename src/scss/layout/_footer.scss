@@ -1,20 +1,18 @@
 .footer {
   display: flex;
   flex-flow: row wrap;
+  align-items: center;
   justify-content: space-between;
 
   position: relative;
 
   width: $width-content;
+  margin-right: 1rem;
+  margin-left: 1rem;
 
   padding: 2rem 0;
   border-top: 1px solid #333333;
 
-  @media screen and (max-width: 1210px) {
-    margin-right: 1rem;
-    margin-left: 1rem;
-
-  }
 
   .footer__logo {
     display: block;
@@ -25,14 +23,14 @@
 
     .footer__logo-title {
       display: block;
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
 
       @extend %h3;
     }
 
     .footer__logo-copyright {
       display: block;
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
 
       @extend %lead;
     }
@@ -45,18 +43,18 @@
     width: calc(100% / 3 - 1rem);
 
     .footer__nav__category {
-      width: calc(50% - .5rem);
+      width: calc(50% - 0.5rem);
 
       .footer__nav__category-title {
         display: block;
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
 
         @extend %topic;
       }
 
       .footer__nav__category-link {
         display: block;
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
       }
     }
   }
@@ -69,7 +67,7 @@
 
     .footer__follow-title {
       display: block;
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
 
       @extend %topic;
     }
