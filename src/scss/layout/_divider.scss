@@ -1,0 +1,22 @@
+.divider {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+
+  .divider-link {
+    display: flex;
+    @include wave-line();
+  }
+
+  .divider-title {
+    display: inline-block;
+    text-transform: uppercase;
+
+    @extend %h2;
+
+    &:hover {
+      @include emphasis();
+    }
+  }
+}
