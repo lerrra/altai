@@ -88,8 +88,19 @@
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: 0.1em;
+
   text-transform: uppercase;
   color: rgba($color-text, 0.5);
 
   transition: color 0.375s;
+}
+
+%menu-item {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+  text-transform: none;
+
+  letter-spacing: 0.1em;
+  color: rgba($color-text, 0.7);
 }
