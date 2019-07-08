@@ -12,7 +12,7 @@
     width: 100%;
   }
 }
-  .wide {
+  .column__wide {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -27,7 +27,7 @@
       width: 100%;
     }
   }
-  .side {
+  .column__side {
     display: block;
     position: relative;
 
