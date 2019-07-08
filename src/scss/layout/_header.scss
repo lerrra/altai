@@ -1,0 +1,32 @@
+.header {
+  display: block;
+
+  width: 77rem;
+  max-width: 100%;
+  margin: 0 auto;
+
+  position: relative;
+
+  .header__inner {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+    justify-content: space-between;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    padding: 3rem 0;
+
+
+    .header__logo {
+      display: flex;
+      position: relative;
+
+      .header__logo-title {
+        @extend %logo;
+      }
+    }
+  }
+}
