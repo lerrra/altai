@@ -1,0 +1,71 @@
+.flow {
+  display: block;
+  position: relative;
+
+  margin-right: 2rem;
+
+  .flow__item {
+    display: flex;
+    flex-flow: row nowrap;
+
+    position: relative;
+
+    padding: 2rem 0 1rem;
+
+    border-bottom: 1px solid #333333;
+
+    .flow__item-poster {
+      display: flex;
+      position: relative;
+
+      box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+
+      & > img {
+        display: block;
+        position: relative;
+        z-index: -1;
+
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+
+    .flow__item-content {
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+
+      margin: 1rem;
+
+      .flow__item-content-topic {
+        margin-bottom: 0.5rem;
+
+        @extend %topic;
+      }
+
+      .flow__item-content-title {
+        margin-bottom: 0.5rem;
+
+        @extend %h2;
+      }
+
+      .flow__item-content-lead {
+        @extend %lead;
+      }
+
+      .flow__item-content-link {
+        &::after {
+          @include full-child();
+
+          content: '';
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.popular--flow {
+  position: sticky!important;
+  top: 1rem
+}
