@@ -2,10 +2,24 @@
   display: flex;
   flex-flow: row nowrap;
 
-  .social__item-icon {
-    width: 2rem;
-    height: auto;
+  @media screen and (max-width: 1023px) {
+    flex-flow: row wrap;
+  }
 
-    margin-right: .75rem;
+  .social__item {
+    display: flex;
+    margin-right: 0.75rem;
+    margin-bottom: 0.5rem;
+
+
+    .social__item-icon {
+      display: flex;
+      width: 2rem;
+
+      &:hover {
+        background-image: linear-gradient(to top left,#f50057,#9B51E0);
+        transition: all 0.375s;
+      }
+    }
   }
 }

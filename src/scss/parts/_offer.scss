@@ -48,10 +48,6 @@
     .offer__inner-button {
       display: block;
       z-index: 2;
-
-      &:hover {
-        box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-      }
     }
 
     .offer__inner-link {

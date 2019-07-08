@@ -5,4 +5,8 @@
   padding: 0.5rem 1.125rem;
   border-radius: 0.3125rem;
   cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  }
 }
