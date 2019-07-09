@@ -1,0 +1,34 @@
+.pagination__wrapper {
+  display: block;
+  position: relative;
+
+  width: 100%;
+
+  padding: 2rem 0;
+}
+
+.pagination {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  .pagination__item {
+    display: flex;
+    position: relative;
+
+    padding: 0.5rem 1.125rem;
+    margin-right: 0.5rem;
+
+    @extend %lead;
+
+    &:hover {
+      @include emphasis();
+    }
+  }
+
+  .pagination__item--active {
+    color: rgba(242, 242, 242, 0.5);
+    border: 1px solid #333333;
+    pointer-events:none;
+  }
+}
