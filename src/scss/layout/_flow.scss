@@ -2,6 +2,23 @@
   display: block;
   position: relative;
 
+  .flow__head {
+    display: block;
+    position: relative;
+
+    width: 100%;
+
+    padding: 2rem 0 0;
+
+    .flow__head-title {
+      display: inline-block;
+      text-transform: uppercase;
+
+      @extend %h2;
+      @include emphasis();
+    }
+  }
+
 
   .flow__item {
     display: flex;
