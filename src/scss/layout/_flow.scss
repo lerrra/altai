@@ -2,7 +2,6 @@
   display: block;
   position: relative;
 
-  margin-right: 2rem;
 
   .flow__item {
     display: flex;
@@ -62,9 +61,4 @@
       }
     }
   }
-}
-
-.popular--flow {
-  position: sticky!important;
-  top: 1rem
 }

@@ -1,4 +1,4 @@
-.pagination__wrapper {
+.pagination {
   display: block;
   position: relative;
 
@@ -7,7 +7,7 @@
   padding: 2rem 0;
 }
 
-.pagination {
+.pagination__inner {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
