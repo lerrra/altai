@@ -84,6 +84,8 @@
 }
 
 %nav-title {
+  cursor: default;
+
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 1.25;
@@ -91,8 +93,6 @@
 
   text-transform: uppercase;
   color: rgba($color-text, 0.5);
-
-  transition: color 0.375s;
 }
 
 %menu-item {

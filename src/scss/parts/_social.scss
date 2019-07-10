@@ -15,10 +15,10 @@
     .social__item-icon {
       display: flex;
       width: 2rem;
+      transition: fill 0.375s;
 
       &:hover {
-        background-image: linear-gradient(to top left,#f50057,#9B51E0);
-        transition: all 0.375s;
+        fill: rgba($color-text, 0.5);
       }
     }
   }

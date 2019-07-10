@@ -4,6 +4,7 @@
 
   .menu__item {
     display: inline-block;
+    position: relative;
 
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
@@ -15,6 +16,26 @@
     box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 
     @extend %menu-item;
+
+    &.menu__item--children {
+      padding-right: 2rem;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 0.75rem;
+
+        width: 0.75rem;
+        height: 0.75rem;
+
+        background-size: 0.75rem;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBmaWxsPSIjQzBDMEMwIj48cGF0aCBkPSJNMjU2IDI5NC4xTDM4MyAxNjdjOS40LTkuNCAyNC42LTkuNCAzMy45IDBzOS4zIDI0LjYgMCAzNEwyNzMgMzQ1Yy05LjEgOS4xLTIzLjcgOS4zLTMzLjEuN0w5NSAyMDEuMWMtNC43LTQuNy03LTEwLjktNy0xN3MyLjMtMTIuMyA3LTE3YzkuNC05LjQgMjQuNi05LjQgMzMuOSAwbDEyNy4xIDEyN3oiLz48L3N2Zz4=);
+
+        transform: translateY(-50%);
+      }
+    }
+
 
     &:last-child {
       border: 1px solid #f50057;

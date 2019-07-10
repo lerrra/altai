@@ -78,7 +78,7 @@
 
 .card--unit {
   min-height: 15rem;
-  width: calc(100% / 3 - 1rem);
+  width: calc(100% / 3 - 0.625rem);
 
   @media screen and (max-width: 767px) {
     width: 100%;
@@ -86,12 +86,11 @@
 }
 
 .card--feature {
-  width: 66%;
+  width: calc(100% / 1.5 - 0.25rem);
   min-height: 25rem;
 
   @media screen and (max-width: 767px) {
     width: 100%;
     min-height: 15rem;
-
   }
 }
