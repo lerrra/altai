@@ -2,6 +2,35 @@
   display: flex;
   flex-flow: row wrap;
 
+  .sub__menu {
+    display: block;
+    position: absolute;
+
+    min-width: 15rem;
+
+    background-color: #333333;
+    border-radius: 0.3125rem;
+
+    top: 100%;
+    z-index: 10;
+
+    margin-top: 0.25rem;
+    margin-left: -0.5rem;
+    padding: 1rem 2rem;
+
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+
+    .sub__menu-item {
+      display: inline-block;
+      width: 100%;
+      margin: 0.25rem 0;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
   .menu__item {
     display: inline-block;
     position: relative;
@@ -18,7 +47,7 @@
     @extend %menu-item;
 
     &.menu__item--children {
-      padding-right: 2rem;
+      padding-right: 1.75rem;
 
       &::before {
         content: '';
