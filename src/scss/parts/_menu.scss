@@ -46,6 +46,17 @@
 
     @extend %menu-item;
 
+    .menu__item-link {
+      display: block;
+
+      &::after {
+        @include full-child();
+
+        content: '';
+        display: block;
+      }
+    }
+
     &.menu__item--children {
       padding-right: 1.75rem;
 
