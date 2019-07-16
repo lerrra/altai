@@ -20,3 +20,19 @@
     }
   }
 }
+
+.divider--active {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+
+  width: $width-content;
+
+  .divider-title {
+    display: block;
+    text-transform: uppercase;
+
+    @extend %h2;
+    @include emphasis();
+  }
+}

@@ -2,31 +2,15 @@
   display: block;
   position: relative;
 
-  .flow__head {
-    display: block;
-    position: relative;
-
-    width: 100%;
-
-    padding: 2rem 0 0;
-
-    .flow__head-title {
-      display: inline-block;
-      text-transform: uppercase;
-
-      @extend %h2;
-      @include emphasis();
-    }
-  }
-
-
   .flow__item {
     display: flex;
     flex-flow: row nowrap;
 
     position: relative;
 
-    padding: 2rem 0 1rem;
+    padding: 0 0 1rem;
+
+    margin-bottom: 2rem;
 
     border-bottom: 1px solid #333333;
 
@@ -60,7 +44,7 @@
       .flow__item-content-title {
         margin-bottom: 0.5rem;
 
-        @extend %h2;
+        @extend %flow-title;
       }
 
       .flow__item-content-lead {
