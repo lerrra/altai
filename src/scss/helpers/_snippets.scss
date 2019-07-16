@@ -111,6 +111,11 @@
   line-height: 1.1;
 
   text-transform: none;
+  transition: color 0.375s;
+
+  &:hover {
+    color: rgba($color-text, 0.2);
+  }
 
   @media screen and (max-width: 1023px) {
     font-size: 2rem;
