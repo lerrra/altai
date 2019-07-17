@@ -1,0 +1,12 @@
+.author {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  width: 100%;
+
+  .author__info {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
