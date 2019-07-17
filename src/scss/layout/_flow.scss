@@ -56,11 +56,14 @@
       .flow__item-content-topic {
         margin-bottom: 0.5rem;
 
+        z-index: 2;
+
         @extend %topic;
       }
 
       .flow__item-content-title {
         margin-bottom: 0.5rem;
+
 
         @extend %flow-title;
       }

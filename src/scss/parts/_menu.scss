@@ -8,7 +8,6 @@
 
     min-width: 15rem;
 
-    background-color: #333333;
     border-radius: 0.3125rem;
 
     top: 100%;
@@ -23,12 +22,24 @@
     visibility: hidden;
 
     .sub__menu-item {
+
       display: inline-block;
+      position: relative;
       width: 100%;
       margin: 0.25rem 0;
 
       &:hover {
         color: #fff;
+      }
+    }
+    .sub__menu-item-link {
+      display: block;
+
+      &::after {
+        @include full-child();
+
+        content: '';
+        display: block;
       }
     }
   }
