@@ -1,4 +1,4 @@
-.column {
+.block-content {
   display: flex;
   flex-flow: row nowrap;
 
@@ -12,7 +12,7 @@
     width: 100%;
   }
 }
-  .column__wide {
+  .post {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -27,7 +27,7 @@
       width: 100%;
     }
   }
-  .column__side {
+  .sidebar {
     display: flex;
     flex-flow: column;
 
