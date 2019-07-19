@@ -58,6 +58,10 @@
     position: relative;
 
     @extend %h4;
+
+    &:hover {
+      @include emphasis();
+    }
   }
 
   .author__info-text-date {
@@ -66,13 +70,6 @@
 
   .author__info-text-date-link {
     display: block;
-
-    &::after {
-      @include full-child();
-
-      content: '';
-      display: block;
-    }
   }
 
 }
