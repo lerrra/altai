@@ -1,0 +1,16 @@
+.entry-info {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  width: 100%;
+
+  align-items: center;
+
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: 479px){
+    flex-flow: row wrap;
+  }
+
+}

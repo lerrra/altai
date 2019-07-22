@@ -1,0 +1,56 @@
+.author-info {
+  display: flex;
+  flex-flow: row nowrap;
+
+  align-items: center;
+
+  @media screen and (max-width: 479px){
+    width: 100%;
+    justify-content: center;
+  }
+
+  .author-info__poster {
+    display: flex;
+    width: 4rem;
+
+    margin-right: 1rem;
+
+    @media screen and (max-width: 479px){
+      width: 3rem;
+    }
+
+    & > img {
+      display: block;
+      position: relative;
+
+      object-fit: cover;
+      object-position: center;
+
+      border-radius: 360rem;
+    }
+  }
+
+  .author-info__content {
+    display: flex;
+    flex-flow: column;
+
+    position: relative;
+    max-width: 100%;
+
+    .author-info__content-title {
+      display: inline-block;
+
+      @extend %h4;
+
+      &:hover {
+        @include emphasis();
+      }
+    }
+
+    .author-info__content-date {
+      display: inline-block;
+
+      @extend %nav-title;
+    }
+  }
+}

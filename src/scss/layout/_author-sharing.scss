@@ -1,0 +1,9 @@
+.author-sharing {
+  display: flex;
+  padding: 0.5rem 0;
+
+  @media screen and (max-width: 479px){
+    width: 100%;
+    justify-content: center;
+  }
+}
