@@ -1,0 +1,47 @@
+.share {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+
+  .share__link {
+    display: flex;
+    align-content: flex-start;
+
+    cursor: pointer;
+
+    padding: 0.25rem 0.5rem 0.25rem;
+    margin-bottom: 0.5rem;
+
+    width: calc(100% / 4 - 0.75rem);
+
+
+    &:hover {
+      background-image: linear-gradient(to top left,#f50057,#9B51E0);
+      transition: 0.375s;
+    }
+  }
+
+  .share__link-icon {
+    display: flex;
+    width: 2rem;
+  }
+
+  .share__link--fb {
+    background-color: $icon-fb;
+  }
+
+  .share__link--tw {
+    background-color: $icon-tw;
+  }
+
+  .share__link--pin {
+    background-color: $icon-pin;
+  }
+
+  .share__link--more {
+    background-color: $icon-standart;
+  }
+
+
+}
