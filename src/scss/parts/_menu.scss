@@ -2,36 +2,34 @@
   display: flex;
   flex-flow: row wrap;
 
+
   .sub__menu {
-    display: block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
     position: absolute;
 
-    min-width: 15rem;
 
-    border-radius: 0.3125rem;
-
-    top: 100%;
+    width: 50rem;
     z-index: 10;
 
-    margin-top: 0.25rem;
-    margin-left: -0.5rem;
-    padding: 1rem 2rem;
-
+    background-image: linear-gradient(to top left,#f50057,#9B51E0);
     box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+
+    padding: 1rem 2rem;
 
     visibility: hidden;
 
-    .sub__menu-item {
 
-      display: inline-block;
-      position: relative;
-      width: 100%;
-      margin: 0.25rem 0;
+    .sub__menu-item {
+      width: calc(100% / 4 - 1rem);
 
       &:hover {
         color: #fff;
       }
     }
+
     .sub__menu-item-link {
       display: block;
 
