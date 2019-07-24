@@ -9,6 +9,7 @@
     justify-content: center;
 
     position: absolute;
+    top: 100%;
 
 
     width: 50rem;
@@ -23,6 +24,7 @@
 
 
     .sub__menu-item {
+      display: block;
       width: calc(100% / 4 - 1rem);
 
       &:hover {
