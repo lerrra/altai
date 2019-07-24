@@ -1,0 +1,53 @@
+Блок с комментариями
+Отдельные страницы для каждого блока
+? Сайдбар уже, чем на других страницах
+
+1. Заголовки в посте: %h2
+
+2. Основной текст:
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.7;
+
+1023px: 1.125rem
+767px: 1rem
+
+3. Изображение:
+width / height = 4/3;
+
+4. Подпись к изображению:
+font-size: 1 rem;
+font-weight: 300;
+
+767px: 0.875rem;
+
+5. Врезка:
+%h2
+@include wave-line
+
+margin-right / margin-left : 1.5-2rem
++ отступ перед wave-line
+
+6. Цитата:
+
+Иконка (2.5*2.5) quote.svg
+
+font-size: 1.5rem
+font-style: italic
+
+767px: 1.125rem
+
+Подпись
+font-size: 1 rem;
+font-weight: 300;
+767px: 0.875rem;
+
+7. Списки
+font-size: 1.25rem;
+1023px: 1.125rem;
+767px: 1rem;
+
+Отступы для всего блока: 2rem слева
+Отступ от буллета/пункта: 1 rem
+Вертикальный отступ между пунктами: 0.5rem
+
