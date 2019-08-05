@@ -127,3 +127,20 @@
   }
 }
 
+%big-title {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.2;
+
+  text-transform: uppercase;
+
+  @media screen and (max-width: 1023px) {
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+
+}
