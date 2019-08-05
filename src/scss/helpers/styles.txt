@@ -1,6 +1,8 @@
+-------------------------------------------------------------
+Стандартный пост
+
+
 Блок с комментариями
-Отдельные страницы для каждого блока
-? Сайдбар уже, чем на других страницах
 
 1. Заголовки в посте: %h2
 
@@ -50,4 +52,94 @@ font-size: 1.25rem;
 Отступы для всего блока: 2rem слева
 Отступ от буллета/пункта: 1 rem
 Вертикальный отступ между пунктами: 0.5rem
+
+------------------------------------------------------------------------------
+
+Fullwidth
+
+1. Заголовки в посте: %h2
+
+2. Основной текст:
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.7;
+
+1023px: 1.125rem
+767px: 1rem
+
+3.Большое изображение
+width: $content-width
+пропорции 3/4
+
+Подпись к изображению:
+font-size: 1 rem;
+font-weight: 300;
+
+767px: 0.875rem;
+
+4. Изображения в две / три колонки
+
+flex-flow: row nowrap
+
+width: 49% / calc(100% / 3 - 0.5)
+min-height: 15rem
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+767px:
+width: 100%
+flex-flow: column
+
+5. Текст и изображение на полях
+
+flex-flow: row nowrap
+max-width: 12rem
+margin-left: 1rem
+
+440px:
+flex-flow: column-reverse
+
+6. Три колонки с иконками
+
+flex flow : row nowrap
+width: calc (100% / 3 - 0.5)
+
+Заголовки: %h3
+text-transform: uppercase
+
+Текст: как основной, но скорее всего убрать насыщенность до 300
+
+Иконки:
+— background-image: linear-gradient(to top left,#f50057,#9B51E0);
+— width: 4rem
+
+767px:
+flex flow: column
+уменьшить ширину до 70-80%
+
+7. Плитки
+ширина блока: 80% от $width-content
+ширина элемента: calc(100% / 3 - 0.5)
+
+текст %h3
+uppercase
+
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
+border-radius: 10px
+
+background-image: linear-gradient(to top left,#c31432,#240b36)
+background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../../../images/covers/_9_green.jpg")
+background-image: linear-gradient(to top left,#240b36,#c31432)
+
+767px:
+flex flow: column
+уменьшить ширину до 70-80%
+
+----------------------------------------------------------
+
+
+
+
+
+
+
 
