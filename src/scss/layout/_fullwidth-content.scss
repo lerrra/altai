@@ -1,0 +1,26 @@
+.fullwidth-content {
+  display: flex;
+
+  width: $width-content;
+  max-width: 100%;
+
+  margin: 0 auto;
+
+  .post {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-self: flex-start;
+
+    position: relative;
+
+    width: 100%;
+    max-width: 100%;
+
+    margin: 0 auto;
+
+    @media screen and (max-width: 1023px) {
+      width: 100%;
+    }
+  }
+}
