@@ -1,0 +1,6 @@
+.entry-lead {
+  display: block;
+  margin-bottom: 3rem;
+
+  @extend %lead;
+}
