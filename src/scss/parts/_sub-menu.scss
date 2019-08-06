@@ -1,0 +1,38 @@
+.sub__menu {
+  display: none;
+
+  position: absolute;
+  top: 3rem;
+  left: 60%;
+
+  min-width: 13rem;
+
+  z-index: 10;
+
+  background-image: linear-gradient(to bottom, rgba(245, 0, 87, 0.5), rgba(155, 81, 224, 0.8));
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+
+  padding: 2rem 2rem 1.5rem;
+
+  &:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+
+    border: 8px solid transparent;
+    border-bottom-color: rgba(245, 0, 87, 0.5);
+
+    right: auto;
+    left: 9px;
+    top: -16px;
+  }
+
+  .sub__menu-item {
+    width: 10rem;
+    margin-bottom: 0.75rem;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}

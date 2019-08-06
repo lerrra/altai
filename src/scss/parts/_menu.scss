@@ -2,48 +2,6 @@
   display: flex;
   flex-flow: row wrap;
 
-
-  .sub__menu {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-
-    position: absolute;
-    top: 100%;
-
-
-    width: 50rem;
-    z-index: 10;
-
-    background-image: linear-gradient(to top left,#f50057,#9B51E0);
-    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
-
-    padding: 1rem 2rem;
-
-    visibility: hidden;
-
-
-    .sub__menu-item {
-      display: block;
-      width: calc(100% / 4 - 1rem);
-
-      &:hover {
-        color: #fff;
-      }
-    }
-
-    .sub__menu-item-link {
-      display: block;
-
-      &::after {
-        @include full-child();
-
-        content: '';
-        display: block;
-      }
-    }
-  }
-
   .menu__item {
     display: inline-block;
     position: relative;
@@ -59,9 +17,11 @@
 
     @extend %menu-item;
 
-    &:hover .sub__menu {
-      visibility: visible;
+    &:hover > .sub__menu {
+      display: block;
+      transition: 0.375s;
     }
+
 
     .menu__item-link {
       display: block;
