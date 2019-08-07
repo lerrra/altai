@@ -1,0 +1,58 @@
+.comment {
+  display: block;
+  position: relative;
+
+  .comment__form {
+    display: flex;
+    flex-flow: row nowrap;
+
+    width: 100%;
+
+    margin: 2rem 0;
+
+    .comment__form-photo {
+      width: 3rem;
+      margin-right: 1rem;
+
+      & > img {
+        display: block;
+        position: relative;
+
+        width: 3rem;
+        height: 3rem;
+
+        object-fit: cover;
+        object-position: center;
+
+        border-radius: 50%;
+      }
+    }
+
+    .comment__form-reply {
+      display: flex;
+      flex-flow: column;
+
+      width: 80%;
+
+      .comment__form-reply-textarea {
+        background: none;
+
+        border: 1px solid #ffffff;
+        border-radius: 0.3125rem;
+
+        outline: none;
+        overflow: auto;
+        resize: none;
+        color: #ffffff;
+
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .comment__form-reply-input {
+        display: flex;
+        align-self: flex-end;
+      }
+    }
+  }
+}
