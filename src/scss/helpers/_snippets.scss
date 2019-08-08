@@ -142,5 +142,13 @@
     font-size: 1.75rem;
     line-height: 1.25;
   }
+}
 
+%comment-description {
+  font-size: 0.875rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: grey;
+
+  text-transform: none;
 }

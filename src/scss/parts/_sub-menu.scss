@@ -9,7 +9,7 @@
 
   z-index: 10;
 
-  background-image: linear-gradient(to bottom, rgba(245, 0, 87, 0.5), rgba(155, 81, 224, 0.8));
+  background-image: linear-gradient(to top left, #f50057,#9B51E0);
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 
   padding: 2rem 2rem 1.5rem;
@@ -20,7 +20,7 @@
     position: absolute;
 
     border: 8px solid transparent;
-    border-bottom-color: rgba(245, 0, 87, 0.5);
+    border-bottom-color: #9B51E0;
 
     right: auto;
     left: 9px;
@@ -30,6 +30,8 @@
   .sub__menu-item {
     width: 10rem;
     margin-bottom: 0.75rem;
+
+    z-index: 15;
 
     &:hover {
       color: #ffffff;

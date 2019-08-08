@@ -8,7 +8,7 @@
 
     width: 100%;
 
-    margin: 2rem 0;
+    margin: 1rem 0 2rem;
 
     .comment__form-photo {
       width: 3rem;
@@ -32,7 +32,7 @@
       display: flex;
       flex-flow: column;
 
-      width: 80%;
+      width: 90%;
 
       .comment__form-reply-textarea {
         background: none;
@@ -53,6 +53,32 @@
         display: flex;
         align-self: flex-end;
       }
+    }
+  }
+
+  .comment__info {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    padding-left: 4rem;
+
+    .comment__info-input {
+      outline: none;
+      background: none;
+      color: #ffffff;
+
+      border: 0;
+      border-bottom: 1px solid #f50057;
+
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .comment__info-description,
+    .comment__info-name,
+    .comment__info-email {
+      @extend %comment-description;
     }
   }
 }
