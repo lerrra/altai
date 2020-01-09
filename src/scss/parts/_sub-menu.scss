@@ -5,14 +5,15 @@
   top: 3rem;
   left: 60%;
 
-  min-width: 13rem;
+  width: 10rem;
 
   z-index: 10;
 
-  background-image: linear-gradient(to top left, #f50057,#9B51E0);
+  background-color: #333333;
+  border-radius: 0.3125rem;
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 
-  padding: 2rem 2rem 1.5rem;
+  padding: 1rem;
 
   &:before {
     content: '';
@@ -20,7 +21,7 @@
     position: absolute;
 
     border: 8px solid transparent;
-    border-bottom-color: #9B51E0;
+    border-bottom-color: #333333;
 
     right: auto;
     left: 9px;
@@ -28,13 +29,14 @@
   }
 
   .sub__menu-item {
-    width: 10rem;
-    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 0.3125rem;
 
     z-index: 15;
 
     &:hover {
       color: #ffffff;
+      background-image: linear-gradient(to top left,#f50057,#9B51E0);
     }
   }
 }
