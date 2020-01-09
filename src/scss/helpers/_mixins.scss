@@ -14,6 +14,13 @@
   background-position: 100% 100%;
 }
 
+@mixin short-wave() {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIiB2aWV3Qm94PSIwIDAgMjAgNCI+ICAgIDxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2YyZjJmMiIgc3Ryb2tlLXdpZHRoPSIxIiBjbGFzcz0ic3QwIiBkPSJNMCwzLjUgYyA1LDAsIDUsIC0zLCAxMCwgLTMgcyA1LDMsIDEwLCAzIGMgNSwwLCA1LCAtMywgMTAsIC0zIHMgNSwzLCAxMCwgMyIgLz48L3N2Zz4=);
+  background-size: auto 8px;
+  background-repeat: repeat-x;
+  background-position: 100% 100%;
+}
+
 @mixin emphasis() {
   background-image: linear-gradient(to top left,#f50057,#9B51E0);
   -webkit-background-clip: text;

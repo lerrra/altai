@@ -152,3 +152,36 @@
 
   text-transform: none;
 }
+
+%text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+
+  @media screen and (max-width: 1023px) {
+    font-size: 1.125rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+}
+
+%caption {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1;
+
+  text-align: center;
+
+  @media screen and (max-width: 767px) {
+    font-size: 0.875rem;
+  }
+}
+
+%quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.25;
+}

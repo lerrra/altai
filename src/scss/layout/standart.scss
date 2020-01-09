@@ -1,0 +1,67 @@
+.standart {
+  display: block;
+  position: relative;
+
+  width: 90%;
+  margin: 0 auto;
+
+  & > * {
+    margin-bottom: 3rem;
+  }
+
+  .standart__title {
+    @extend %h2;
+  }
+
+  .standart__text {
+    @extend %text;
+  }
+
+  .standart__caption {
+    @extend %caption;
+    margin: 0.25rem 0;
+  }
+
+  .standart__ordered {
+    display: block;
+    position: relative;
+    margin-left: 1rem;
+
+    .standart__ordered-item {
+      display: flex;
+      flex-flow: row nowrap;
+
+      margin-bottom: 0.5rem;
+
+      .standart__ordered-item-number {
+        @extend %text;
+        margin-right: 0.5rem;
+      }
+      .standart__ordered-item-text {
+        @extend %text;
+      }
+    }
+  }
+
+  .standart__unordered {
+    display: block;
+    position: relative;
+    margin-left: 1rem;
+
+    .standart__unordered-item {
+      display: flex;
+      flex-flow: row nowrap;
+
+      margin-bottom: 0.5rem;
+
+      .standart__unordered-item-point {
+        @extend %text;
+        margin-right: 0.5rem;
+      }
+
+      .standart__unordered-item-text {
+        @extend %text;
+      }
+    }
+  }
+}

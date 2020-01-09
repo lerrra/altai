@@ -1,0 +1,64 @@
+.figure {
+  display: block;
+  position: relative;
+
+  padding: 1rem 0;
+}
+
+.figure--image {
+  display: block;
+  max-width: 100%;
+
+  & > img {
+    width: 100%;
+    height: 24rem;
+
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.figure--blockquote {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+
+  .standart__blockquote {
+    @extend %h2;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .standart__shortwave {
+    width: 70%;
+    height: 2rem;
+    margin: 0 auto;
+    @include short-wave();
+  }
+}
+
+.figure--quote {
+  display: flex;
+  flex-flow: row nowrap;
+
+  position: relative;
+  width: 100%;
+
+  .figure__image {
+    display: flex;
+    position: relative;
+
+    margin-right: 1rem;
+
+    & > svg {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+
+  .standart__quote {
+    margin-bottom: 0.5rem;
+    @extend %quote;
+  }
+}
