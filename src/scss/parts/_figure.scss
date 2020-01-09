@@ -25,7 +25,7 @@
   margin: 0 auto;
 
   .standart__blockquote {
-    @extend %h2;
+    @extend %medium-title;
     text-transform: uppercase;
     text-align: center;
   }
