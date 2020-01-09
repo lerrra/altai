@@ -3,7 +3,9 @@
   flex-flow: column;
   justify-content: center;
 
-  position: relative;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 2rem;
 
   min-height: 12rem;
 
