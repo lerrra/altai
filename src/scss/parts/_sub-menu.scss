@@ -1,11 +1,16 @@
 .sub__menu {
   display: none;
 
+  //display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+
+  width: max-content;
+
+
   position: absolute;
   top: 3rem;
   left: 60%;
-
-  width: 10rem;
 
   z-index: 10;
 
@@ -13,11 +18,11 @@
   border-radius: 0.3125rem;
   box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
 
-  padding: 1rem;
+  padding: 0.5rem;
 
   &:before {
     content: '';
-    display: inline-block;
+    display: block;
     position: absolute;
 
     border: 8px solid transparent;
@@ -29,10 +34,18 @@
   }
 
   .sub__menu-item {
+    display: flex;
     padding: 0.5rem;
     border-radius: 0.3125rem;
 
+    margin-bottom: 0.2rem;
+    margin-right: 0.5rem;
+
     z-index: 15;
+
+    &:last-child {
+      margin-right: 0;
+    }
 
     &:hover {
       color: #ffffff;

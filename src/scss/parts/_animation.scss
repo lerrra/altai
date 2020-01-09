@@ -1,0 +1,48 @@
+.animation__flow {
+  background: #ffffff;
+  background-size: 57%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: rainbow-text-animation-rev 3s infinite ease forwards;
+
+  cursor: pointer;
+}
+
+.animation__flow:hover {
+  background: conic-gradient(#f50057, #9B51E0, #f50057, #9B51E0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow-text-animation 3s ease forwards infinite;
+}
+
+@keyframes rainbow-text-animation {
+  0% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1rem;
+  }
+  100% {
+    background-size: 300%;
+    background-position: -9rem 1rem;
+  }
+}
+
+@keyframes rainbow-text-animation-rev {
+  0% {
+    background-size: 300%;
+    background-position: -9em 1em;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+}

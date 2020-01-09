@@ -3,7 +3,7 @@
   flex-flow: row wrap;
 
   .menu__item {
-    display: inline-block;
+    display: flex;
     position: relative;
 
     margin-right: 0.5rem;
@@ -17,14 +17,14 @@
 
     @extend %menu-item;
 
-    &:hover > .sub__menu {
-      display: block;
+    &:focus > .sub__menu {
+      display: flex;
       transition: 0.375s;
     }
 
 
     .menu__item-link {
-      display: block;
+      display: flex;
 
       &::after {
         @include full-child();
