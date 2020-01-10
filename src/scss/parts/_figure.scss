@@ -7,15 +7,37 @@
 
 .figure--image {
   display: block;
-  max-width: 100%;
+  position: relative;
+  width: 100%;
 
-  & > img {
-    width: 100%;
-    height: 24rem;
+  .figure--image__poster {
+    display: block;
+    position: relative;
 
-    object-fit: cover;
-    object-position: center;
+    max-width: 100%;
+    min-height: 22rem;
+
+    @media screen and (max-width: 767px) {
+      min-height: 15rem;
+    }
+
+    & > img {
+      width: 100%;
+
+      @include full-child;
+
+      object-fit: cover;
+      object-position: center;
+    }
   }
+
+  .figure--image__caption {
+    display: block;
+    position: relative;
+    margin: 0.5rem 0;
+  }
+
+
 }
 
 .figure--blockquote {
