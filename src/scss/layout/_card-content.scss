@@ -16,7 +16,7 @@
 
     display: flex;
     width: calc(100% / 3 - 1rem);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 
     @media screen and (max-width: 1023px){
       display: none;

@@ -1,6 +1,10 @@
 .entry-lead {
   display: block;
-  margin-bottom: 3rem;
+  position: relative;
+  padding-bottom: 3rem;
+
+  width: 90%;
+  margin: 0 auto;
 
   @extend %lead;
 }
