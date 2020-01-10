@@ -8,11 +8,15 @@
 
     width: 100%;
 
-    margin: 1rem 0 2rem;
+    margin: 1rem 0;
 
     .comment__form-photo {
       width: 3rem;
       margin-right: 1rem;
+
+      @media screen and (max-width: 767px) {
+        width: 1.5rem;
+      }
 
       & > img {
         display: block;
@@ -25,6 +29,11 @@
         object-position: center;
 
         border-radius: 50%;
+
+        @media screen and (max-width: 767px) {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
       }
     }
 
@@ -33,6 +42,11 @@
       flex-flow: column;
 
       width: 90%;
+
+      @media screen and (max-width: 767px){
+        width: 100%;
+
+      }
 
       .comment__form-reply-textarea {
         background: none;
@@ -58,10 +72,15 @@
 
   .comment__info {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 
     padding-left: 4rem;
+    
+    @media screen and (max-width: 767px) {
+      padding-left: 0;
+      
+    }
 
     .comment__info-input {
       outline: none;
@@ -73,12 +92,20 @@
 
       padding-bottom: 0.5rem;
       margin-bottom: 1rem;
+
+      width: 100%;
     }
 
     .comment__info-description,
     .comment__info-name,
     .comment__info-email {
       @extend %comment-description;
+      width: calc(50% - 1rem);
+      margin-bottom: 0.5rem;
+
+      @media screen and (max-width: 767px) {
+        width: 100%;
+      }
     }
   }
 }
