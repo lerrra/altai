@@ -1,0 +1,31 @@
+.icon-tile {
+  display: flex;
+  flex-flow: column;
+
+  width: calc(33% - 1rem);
+
+  margin-bottom: 1rem;
+
+  .icon-tile__poster {
+    position: relative;
+    margin: 0 auto;
+
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .icon-tile__title {
+    @extend %h3;
+    @include emphasis();
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5rem 0;
+
+  }
+
+  .icon-tile__text {
+    @extend %text;
+    text-align: center;
+  }
+}
+

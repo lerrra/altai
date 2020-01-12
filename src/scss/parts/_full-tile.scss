@@ -1,0 +1,77 @@
+.full-tile {
+  display: flex;
+  position: relative;
+
+  align-items: center;
+  justify-content: center;
+
+  width: calc(33% - 0.5rem);
+
+  min-height: 25rem;
+
+  margin-bottom: 1rem;
+
+  @media screen and (max-width: 1023px) {
+    min-height: 22rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    min-height: 15rem;
+  }
+
+  .full-tile__poster {
+    @include full-child();
+
+    display: flex;
+    overflow: hidden;
+
+    background: rgba(#000, 0.5);
+    transition: background 0.375s;
+
+    box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+
+    &::before {
+      content: '';
+
+      width: 0;
+      height: 0;
+      padding-top: 50%;
+    }
+
+    & > img {
+      display: block;
+      position: relative;
+      z-index: -10;
+
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .full-tile__content {
+    display: flex;
+    position: static;
+    z-index: 1;
+
+    .full-tile__content-text {
+      @extend %medium-title;
+      display: flex;
+      align-self: center;
+      text-align: center;
+      padding: 0.5rem;
+    }
+
+    .full-tile__content-link {
+      display: block;
+
+      &::after {
+        @include full-child();
+
+        content: '';
+        display: block;
+      }
+    }
+  }
+}

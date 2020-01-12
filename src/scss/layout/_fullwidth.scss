@@ -1,14 +1,11 @@
-.entry-lead {
+.fullwidth {
   display: block;
   position: relative;
-  padding-bottom: 3rem;
 
   width: 100%;
   margin: 0 auto;
 
-  @extend %lead;
-
   & > * {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 }

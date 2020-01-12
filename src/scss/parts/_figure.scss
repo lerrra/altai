@@ -45,19 +45,6 @@
   position: relative;
   width: 90%;
   margin: 0 auto;
-
-  .standart__blockquote {
-    @extend %medium-title;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  .standart__shortwave {
-    width: 70%;
-    height: 2rem;
-    margin: 0 auto;
-    @include short-wave();
-  }
 }
 
 .figure--quote {
@@ -78,9 +65,64 @@
       height: 2.5rem;
     }
   }
+}
 
-  .standart__quote {
-    margin-bottom: 0.5rem;
-    @extend %quote;
+.figure--big-image {
+  display: block;
+  position: relative;
+  width: 100%;
+
+  .figure--big-image__poster {
+    display: block;
+    position: relative;
+
+    max-width: 100%;
+    min-height: 40rem;
+
+    @media screen and (max-width: 767px) {
+      min-height: 15rem;
+    }
+
+    & > img {
+      width: 100%;
+
+      @include full-child;
+
+      object-fit: cover;
+      object-position: center;
+    }
   }
+
+  .figure--big-image__caption {
+    display: block;
+    position: relative;
+    margin: 0.5rem 0;
+  }
+}
+
+.figure--two-images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.figure--three-images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.figure--icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.figure--tile {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  position: relative;
+  margin: 0 auto;
 }

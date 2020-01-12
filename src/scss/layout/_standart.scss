@@ -22,6 +22,24 @@
   @extend %caption;
 }
 
+.standart__quote {
+  margin-bottom: 0.5rem;
+  @extend %quote;
+}
+
+.standart__blockquote {
+  @extend %medium-title;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.standart__shortwave {
+  width: 70%;
+  height: 2rem;
+  margin: 0 auto;
+  @include short-wave();
+}
+
 .standart__ordered {
   display: block;
   position: relative;
