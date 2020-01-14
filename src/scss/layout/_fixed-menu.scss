@@ -33,6 +33,10 @@
     &:hover {
       @include emphasis();
     }
+
+    &:active {
+      @include emphasis();
+    }
   }
 
 }
